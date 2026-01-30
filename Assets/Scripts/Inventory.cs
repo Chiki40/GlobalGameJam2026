@@ -10,6 +10,7 @@ public class Inventory : MonoBehaviour
         if (!_inventory.Contains(item))
         {
             _inventory.Add(item);
+            UIManager.Instance.AddItemUI(item.Image);
         }
         else
         {
@@ -35,7 +36,8 @@ public class Inventory : MonoBehaviour
         if (_inventory.Contains(item))
         {
             _inventory.Remove(item);
-        }
+			UIManager.Instance.RemoveItemUI(item.Image);
+		}
 		else
 		{
 			Debug.LogError("[Inventory.RemoveItem] ERROR. Item " + item.Name + " not present");
