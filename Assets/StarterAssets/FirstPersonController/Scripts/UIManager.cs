@@ -47,6 +47,7 @@ public class UIManager : MonoBehaviour
 			{
 				Destroy(_inventoryParent.GetChild(i).gameObject);
 				--_currentNumItems;
+				break;
 			}
 		}
 	}
