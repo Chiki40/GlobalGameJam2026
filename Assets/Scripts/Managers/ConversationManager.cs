@@ -12,6 +12,9 @@ public class ConversationManager : MonoBehaviour
 	private const char kOpenRichTextSectionChar = '<';
 	private const char kCloseRichTextSectionChar = '>';
 
+	private static ConversationManager _instance = null;
+	public static ConversationManager Instance => _instance;
+
 	[SerializeField]
 	private float _defaultTextAppearTimeBetweenChars = 0.05f;
 	[SerializeField]
@@ -19,7 +22,7 @@ public class ConversationManager : MonoBehaviour
 	[SerializeField]
 	private UnityEvent<string> _onConversationTextChanged = null;
 	[SerializeField]
-	private UnityEvent<ConversationPieceData> _onConversationPieceChanged = null;
+	private UnityEvent _onConversationStarted = null;
 	[SerializeField]
 	private UnityEvent _onConversationEnded = null;
 
@@ -36,7 +39,21 @@ public class ConversationManager : MonoBehaviour
 
 	public bool IsConversationInProgress => _isConversationInProgress;
 
-	protected virtual void Awake()
+	private void Awake()
+	{
+		if (_instance == null)
+		{
+			_instance = this;
+			DontDestroyOnLoad(gameObject);
+			Init();
+		}
+		else
+		{
+			Destroy(gameObject);
+		}
+	}
+
+	private void Init()
 	{
 		SetTextAppearTimeBetweenCharsToDefault();
 		SetTextAppearTimeBetweenCharsFastModeMultiplierToDefault();
@@ -85,6 +102,7 @@ public class ConversationManager : MonoBehaviour
 
 	private IEnumerator StartConversationCoroutine()
 	{
+		_onConversationStarted?.Invoke();
 		_isConversationInProgress = true;
 		do
 		{
@@ -120,7 +138,6 @@ public class ConversationManager : MonoBehaviour
 #endif
 
 		_onConversationTextChanged?.Invoke(string.Empty);
-		_onConversationPieceChanged?.Invoke(conversationDataPiece);
 
 		float currentTextAppearTimeBetweenChars = _textAppearTimeBetweenChars * conversationDataPiece.TextAppearTimeBetweenCharsMultiplier;
 		int charIndex = 0;

@@ -1,16 +1,20 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
 	private static UIManager _instance = null;
-
 	public static UIManager Instance => _instance;
 
 	[SerializeField]
 	private Transform _inventoryParent = null;
 	[SerializeField]
 	private Image _itemUIPrefab = null;
+	[SerializeField]
+	private GameObject _conversationParent = null;
+	[SerializeField]
+	private TextMeshProUGUI _conversationText = null;
 
 	private int _currentNumItems = 0;
 
@@ -30,6 +34,7 @@ public class UIManager : MonoBehaviour
 
 	private void Init()
 	{
+		_conversationParent.SetActive(false);
 	}
 
 	public void AddItemUI(Sprite sprite)
@@ -50,5 +55,18 @@ public class UIManager : MonoBehaviour
 				break;
 			}
 		}
+	}
+
+	public void ShowConversationUI()
+	{
+		_conversationParent.SetActive(true);
+	}
+	public void HideConversationUI()
+	{
+		_conversationParent.SetActive(false);
+	}
+	public void SetConversationText(string text)
+	{
+		_conversationText.text = text;
 	}
 }
