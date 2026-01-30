@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 6991099987668501771}
   - component: {fileID: 1580012588477900754}
   - component: {fileID: 7515425466860551464}
+  - component: {fileID: 6571773262503764545}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -264,3 +265,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
   _inventoryParent: {fileID: 8521220221244459670}
   _itemUIPrefab: {fileID: 3320508282022113175, guid: e68afbdbbefbfc441aaaf3dec03b41fb, type: 3}
+--- !u!114 &6571773262503764545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951407583587107470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b75581ceb27334495b45334a0a3c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConversationManager
