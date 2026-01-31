@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -58,5 +59,10 @@ public class GameManager : MonoBehaviour
 			_player.transform.position = _respawnTransform.position;
 			Physics.SyncTransforms();
 		}
+	}
+
+	public void LoadLogicMap()
+	{
+		SceneManager.LoadSceneAsync("LogicMap");
 	}
 }
