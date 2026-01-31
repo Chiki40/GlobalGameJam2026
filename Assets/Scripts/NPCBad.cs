@@ -3,7 +3,13 @@ using UnityEngine;
 public class NPCBad : NPC
 {
 	[SerializeField]
-	private float _detectionDistance = 4.0f;
+	private float _purseTime = 5.0f;
+
+	protected override void Awake()
+	{
+		base.Awake();
+		_npcNavigation.SetPursueTime(_purseTime);
+	}
 
 	protected override void Update()
 	{

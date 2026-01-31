@@ -2,6 +2,9 @@ using UnityEngine;
 
 public abstract class NPC : MonoBehaviour
 {
+	[SerializeField]
+	protected float _detectionDistance = 4.0f;
+
 	protected NPCNavigation _npcNavigation = null;
 	protected MaskController _playerMaskController = null;
 
