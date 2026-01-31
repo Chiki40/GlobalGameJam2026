@@ -52,9 +52,9 @@ public class GameManager : MonoBehaviour
 			{
 				PauseGame(false);
 			}
-			else if (UIManager.Instance.enabled)
+			else if (UIManager.Instance.IsFullScreenItemIDActive())
 			{
-				UIManager.Instance.enabled = false;
+				UIManager.Instance.HideFullScreenItemID();
 			}
 			else
 			{
