@@ -22,6 +22,10 @@ namespace StarterAssets
 		public float SpeedChangeRate = 10.0f;
 
 		[Space(10)]
+		public string _stepsSFX = null;
+		public float _distanceForStepsSFX = 1.0f;
+
+		[Space(10)]
 		[Tooltip("The height the player can jump")]
 		public float JumpHeight = 1.2f;
 		[Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
@@ -63,6 +67,9 @@ namespace StarterAssets
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
+
+		// Steps SFX
+		private float _currentDistanceForStepSFX = 0.0f;
 
 	
 #if ENABLE_INPUT_SYSTEM
@@ -201,6 +208,13 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				_currentDistanceForStepSFX += _speed * Time.deltaTime;
+				if (_currentDistanceForStepSFX >= _distanceForStepsSFX)
+				{
+					//UtilSound.Instance.PlaySound(_stepsSFX);
+					Debug.Log("Paso");
+					_currentDistanceForStepSFX = 0.0f;
+				}
 			}
 
 			// move the player

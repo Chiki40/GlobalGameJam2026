@@ -12,7 +12,6 @@ public class PickableItem : SmartObjectInteractable
 	protected override void Awake()
 	{
 		base.Awake();
-        GetComponent<SpriteRenderer>().sprite = _itemToGive.Image;
 	}
 
 	protected override void Start()

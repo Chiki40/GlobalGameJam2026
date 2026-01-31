@@ -105,6 +105,8 @@ MonoBehaviour:
   SprintSpeed: 8
   RotationSpeed: 1
   SpeedChangeRate: 10
+  _stepsSFX: 
+  _distanceForStepsSFX: 2
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.1
