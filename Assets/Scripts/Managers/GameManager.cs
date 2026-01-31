@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
 	private int _numEnemiesPursuing = 0;
 	public int NumEnemies => _numEnemiesPursuing;
 
-    [SerializeField]
     private GameObject _player = null;
 	private Transform _respawnTransform = null;
 	private PlayerInput _playerInput = null;
@@ -44,16 +43,13 @@ public class GameManager : MonoBehaviour
 
 	private void Init()
 	{
-		StartCinematic.gameObject.SetActive(false);
+		if (StartCinematic)
+			StartCinematic.gameObject.SetActive(false);
     }
 
 	private void Start()
 	{
-		if (!_player)
-		{
-            _player = GameObject.FindGameObjectWithTag("Player");
-        }
-		
+        _player = GameObject.FindGameObjectWithTag("Player");
 		_playerInput = _player.GetComponent<PlayerInput>();
 		_cancelInput = _playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
