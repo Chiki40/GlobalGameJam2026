@@ -30,8 +30,6 @@ public class PickableItem : SmartObjectInteractable
 
 	protected override void Interact()
     {
-        base.Interact();
-
 		if (_requiredItem != null)
 		{
 			_playerInventory.RemoveItem(_requiredItem);
@@ -42,6 +40,11 @@ public class PickableItem : SmartObjectInteractable
 			_playerInventory.AddItem(_itemToGive);
 		}
 
-        Destroy(gameObject);
-    }
+		base.Interact();
+	}
+
+	public void Destroy()
+	{
+		Destroy(gameObject);
+	}
 }

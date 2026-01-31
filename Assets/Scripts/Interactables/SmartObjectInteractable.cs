@@ -1,9 +1,12 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public abstract class SmartObjectInteractable : MonoBehaviour
 {
-    protected GameObject _playerObject;
+	[SerializeField]
+	private UnityEvent _onInteracted = null;
+
+	protected GameObject _playerObject;
 	protected MaskController _maskController = null;
 
 	protected virtual void Awake()
@@ -25,6 +28,7 @@ public abstract class SmartObjectInteractable : MonoBehaviour
     protected virtual void Interact()
     {
 		Debug.Log(name + "Interacted");
+		_onInteracted?.Invoke();
 	}
 
 	public void TryToInteract()

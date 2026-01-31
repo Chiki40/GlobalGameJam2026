@@ -127,6 +127,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bf73a5f7122ec4eb3f4eda4c314790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickableItem
+  _onInteracted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7713971116970280626}
+        m_TargetAssemblyTypeName: PickableItem, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _requiredItem: {fileID: 0}
   _itemToGive: {fileID: 11400000, guid: 728b96f60522e354485626ef15fe816f, type: 2}
 --- !u!114 &2743199043726711464
