@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,16 +11,15 @@ public class NPCNavigation : MonoBehaviour
     private NavMeshAgent _agent = null;
     private Transform _target = null;
     private bool _pursuing = false;
+    private bool _returningToBase = false;
     private float _pursuingTime = 0.0f;
+
+    public bool IsPursuing(Transform target) => _pursuing && _target == target;
+    public bool IsReturningToBase => _returningToBase;
 
 	private void Awake()
 	{
 		_agent = GetComponent<NavMeshAgent>();
-	}
-
-	public void SetAgentEnabled(bool enabled)
-	{
-        _agent.isStopped = !enabled;
 	}
 
 	private void Update()
@@ -29,6 +27,10 @@ public class NPCNavigation : MonoBehaviour
         if (_target != null)
         {
             _agent.SetDestination(_target.position);
+            if (_target == _basePoint && Vector3.Distance(_target.position, transform.position) <= _agent.stoppingDistance)
+            {
+                _returningToBase = false;
+            }
         }
 
 		if (_pursuing)
@@ -36,7 +38,7 @@ public class NPCNavigation : MonoBehaviour
             _pursuingTime += Time.deltaTime;
             if (_pursuingTime >= _purseTime)
             {
-                GoToTarget(_basePoint);
+                CancelPursue();
             }
         }
 	}
@@ -54,4 +56,15 @@ public class NPCNavigation : MonoBehaviour
         _pursuing = true;
 		_pursuingTime = 0.0f;
     }
+
+    public void CancelPursue()
+    {
+		GoToTarget(_basePoint);
+        _returningToBase = true;
+	}
+
+	public void SetAgentEnabled(bool enabled)
+	{
+		_agent.isStopped = !enabled;
+	}
 }

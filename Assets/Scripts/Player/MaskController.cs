@@ -48,9 +48,11 @@ public class MaskController : MonoBehaviour
             _maskAnimationInProgress = true;
             _animator.SetTrigger("MaskOn");
             yield return null;
-            yield return _animator.GetCurrentAnimatorClipInfo(0).Length;
+            yield return new WaitUntil(() => !_animator.IsInTransition(0));
+			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
 			_maskAnimationInProgress = false;
 			_maskOn = true;
+			Debug.Log("Mask on");
 		}
         StartCoroutine(PutMaskCoroutine());
     }
@@ -62,9 +64,11 @@ public class MaskController : MonoBehaviour
 			_maskAnimationInProgress = true;
 			_animator.SetTrigger("MaskOff");
 			yield return null;
-			yield return _animator.GetCurrentAnimatorClipInfo(0).Length;
+			yield return new WaitUntil(() => !_animator.IsInTransition(0));
+			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
 			_maskAnimationInProgress = false;
 			_maskOn = false;
+            Debug.Log("Mask off");
 		}
 		StartCoroutine(RemoveMaskCoroutine());
     }
