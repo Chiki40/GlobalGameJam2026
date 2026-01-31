@@ -3,7 +3,8 @@ using UnityEngine;
 
 public abstract class SmartObjectInteractable : MonoBehaviour
 {
-    protected GameObject PlayerObject;
+    protected GameObject _playerObject;
+	protected MaskController _maskController = null;
 
 	protected virtual void Awake()
 	{
@@ -11,12 +12,14 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 
 	protected virtual void Start()
     {
-        PlayerObject = GameObject.FindGameObjectWithTag("Player");
-    }
+        _playerObject = GameObject.FindGameObjectWithTag("Player");
+		_maskController = _playerObject.GetComponent<MaskController>();
+
+	}
 
     protected virtual bool CanInteract()
     {
-        return !PlayerObject.GetComponent<MaskController>().MaskAnimationInProgress;
+        return !_maskController.MaskAnimationInProgress;
     }
 
     protected virtual void Interact()
