@@ -109,8 +109,6 @@ public class ConversationManager : MonoBehaviour
 			ConversationPieceData conversationData = _conversationTextsData.Texts[_conversationTextIndex];
 			yield return ShowConversationText(conversationData);
 
-			Debug.Log("Conversation waiting for input");
-			// While we wait for input, we register to new language changes
 			_waitingForUserProceed = true;
 			while (_waitingForUserProceed)
 			{

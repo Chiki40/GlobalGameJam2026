@@ -24,9 +24,9 @@ public class MaskController : MonoBehaviour
         {
             return;
         }
-        _input.mask = false;
+		_input.mask = false;
 
-        if (_maskAnimationInProgress)
+		if (!GameManager.Instance.ControlsEnabled || _maskAnimationInProgress)
         {
             return;
         }
@@ -50,9 +50,9 @@ public class MaskController : MonoBehaviour
             yield return null;
             yield return _animator.GetCurrentAnimatorClipInfo(0).Length;
 			_maskAnimationInProgress = false;
+			_maskOn = true;
 		}
         StartCoroutine(PutMaskCoroutine());
-        _maskOn = true;
     }
 
     private void RemoveMask()
@@ -64,8 +64,8 @@ public class MaskController : MonoBehaviour
 			yield return null;
 			yield return _animator.GetCurrentAnimatorClipInfo(0).Length;
 			_maskAnimationInProgress = false;
+			_maskOn = false;
 		}
 		StartCoroutine(RemoveMaskCoroutine());
-		_maskOn = false;
     }
 }
