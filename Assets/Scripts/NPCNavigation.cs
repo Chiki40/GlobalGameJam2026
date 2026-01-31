@@ -19,11 +19,9 @@ public class NPCNavigation : MonoBehaviour
 		_agent = GetComponent<NavMeshAgent>();
 	}
 
-    private IEnumerator Start()
+    private void Start()
     {
 		GoToTarget(GameObject.FindGameObjectWithTag("Player").transform);
-        yield return new WaitForSeconds(10.0f);
-        PursueTarget(GameObject.FindGameObjectWithTag("Player").transform);
 	}
 
 	public void SetAgentEnabled(bool enabled)
