@@ -377,6 +377,8 @@ MonoBehaviour:
   SprintSpeed: 8
   RotationSpeed: 1
   SpeedChangeRate: 10
+  _stepsSFX: 
+  _distanceForStepsSFX: 1
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.1
@@ -406,6 +408,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  interact: 0
   mask: 0
   analogMovement: 0
   cursorLocked: 1
@@ -532,6 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3fd9fc8c8090f48ad17a0c8fb6920c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskController
+  _maskOnLoop: 
 --- !u!1001 &1670044357377932487
 PrefabInstance:
   m_ObjectHideFlags: 0
