@@ -38,7 +38,6 @@ public class UIManager : MonoBehaviour
 	{
 		_conversationParent.SetActive(false);
 		_fullScreenItemUI.gameObject.SetActive(false);
-
     }
 
 	public void ShowFullScreenItemUI(ItemData item)

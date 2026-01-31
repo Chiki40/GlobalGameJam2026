@@ -267,12 +267,12 @@ GameObject:
   - component: {fileID: 8278636175581830749}
   - component: {fileID: 1070096201755779505}
   m_Layer: 5
-  m_Name: ItemCanvas
+  m_Name: FullScreenItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8278636175581830749
 RectTransform:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ MonoBehaviour:
   _itemUIPrefab: {fileID: 3320508282022113175, guid: e68afbdbbefbfc441aaaf3dec03b41fb, type: 3}
   _conversationParent: {fileID: 1622187454678035196}
   _conversationText: {fileID: 7958051700644140892}
-  _fullScreenItemUI: {fileID: 0}
+  _fullScreenItemUI: {fileID: 1070096201755779505}
 --- !u!114 &6571773262503764545
 MonoBehaviour:
   m_ObjectHideFlags: 0
