@@ -9,6 +9,7 @@ public class NPCNavigation : MonoBehaviour
 	private float _purseTime = 0.0f;
     private float _fleeingDetectionDistance = 0.0f;
 
+    private Animator _animator = null;
 	private NavMeshAgent _agent = null;
     private Transform _target = null;
 	private int _basePointIndex = 0;
@@ -17,6 +18,7 @@ public class NPCNavigation : MonoBehaviour
 	private bool _returningToBase = false;
 	private bool _fleeing = false;
 	private Transform _fleeingObject = null;
+    private bool _lastWalkingAnimation = false;
 
 	public bool IsPursuing(Transform target) => _pursuing && _target == target;
     public bool IsReturningToBase => _returningToBase;
@@ -34,6 +36,7 @@ public class NPCNavigation : MonoBehaviour
 
 	private void Awake()
 	{
+		_animator = GetComponentInChildren<Animator>();
 		_agent = GetComponent<NavMeshAgent>();
 	}
 
@@ -41,6 +44,11 @@ public class NPCNavigation : MonoBehaviour
 	{
         if (_target != null)
         {
+            if (!_lastWalkingAnimation)
+            {
+				_animator.CrossFadeInFixedTime("Walk", 0.0f);
+                _lastWalkingAnimation = true;
+			}
             _agent.isStopped = false;
             _agent.SetDestination(_target.position);
 
@@ -50,6 +58,7 @@ public class NPCNavigation : MonoBehaviour
                 Vector3.Distance(_target.position, transform.position) <= _agent.stoppingDistance)
             {
                 _returningToBase = false;
+                _target = null;
             }
 
             if (_fleeing && _fleeingObject != null &&
@@ -61,7 +70,12 @@ public class NPCNavigation : MonoBehaviour
         }
         else
         {
-            _agent.isStopped = true;
+			if (_lastWalkingAnimation)
+			{
+				_animator.CrossFadeInFixedTime("Idle", 0.0f);
+				_lastWalkingAnimation = false;
+			}
+			_agent.isStopped = true;
 		}
 
         if (_pursuing)

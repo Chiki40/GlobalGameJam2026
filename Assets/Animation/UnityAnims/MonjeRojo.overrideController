@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MonjeRojo
+  m_Controller: {fileID: 9100000, guid: b47461a16872b7c40ae4d1b01999de6c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 21b123a18e4ba274fbf7db2901e9b21a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cf6ad3523c2dbf344874765f2012b166, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 31e8e7f4bb21dec428dba0065faa3bfd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 53dc8106ffbff18429780c415fda4047, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bd95121091881af4497c0320ff375a25, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3954cd67e6d95d64fa0718d8f2b313b5, type: 2}

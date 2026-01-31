@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939842569310244931, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: m_Name
-      value: NPCBad Variant
+      value: NPCBad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939842569310244931, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
@@ -80,3 +84,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCBad
   _detectionDistance: 4
+  _purseTime: 5

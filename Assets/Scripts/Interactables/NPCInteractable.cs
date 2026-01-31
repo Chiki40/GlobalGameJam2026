@@ -2,7 +2,15 @@ using UnityEngine;
 
 public class NPCInteractable : SmartObjectInteractable
 {
+	private Animator _animator = null;
+
     public ConversationData Conversation;
+
+	protected override void Start()
+	{
+		base.Start();
+		_animator = GetComponentInChildren<Animator>();
+	}
 
 	protected override bool CanInteractNoFeedback()
 	{
@@ -11,7 +19,13 @@ public class NPCInteractable : SmartObjectInteractable
 
 	protected override void Interact()
     {
+		void OnConversationEnd()
+		{
+			_animator.CrossFadeInFixedTime("Idle", 0.0f);
+		}
+
 		base.Interact();
-		ConversationManager.Instance.StartConversation(Conversation);
+		_animator.CrossFadeInFixedTime("Talk", 0.0f);
+		ConversationManager.Instance.StartConversation(Conversation, OnConversationEnd);
     }
 }
