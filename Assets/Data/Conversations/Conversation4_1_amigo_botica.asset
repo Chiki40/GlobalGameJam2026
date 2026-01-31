@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65ce0de79d886142ac39a26c57d7b36, type: 3}
+  m_Name: Conversation4_1_amigo_botica
+  m_EditorClassIdentifier: Assembly-CSharp::ConversationPieceData
+  Text: "\xA1Hola! Esos demonios cada vez est\xE1n m\xE1s sedientos de sangre. Si
+    vieras la de personas que han pasado por aqu\xED para acabar siendo un cad\xE1ver
+    m\xE1s expuesto en la PLAZA DEL PUEBLO para que no nos rebelemos\u2026 Me da
+    angustia s\xF3lo de pensarlo. El \xFAltimo estaba all\xED, colgado de manos y
+    pies como si fuera un animal y el rostro totalmente desencajado con una mueca
+    de terror\u2026Hiciste bien en venir hacia aqu\xED. He encontrado este cacharro
+    y creo que te vendr\xE1 muy bien, aunque no s\xE9 c\xF3mo se usa."
+  TextAppearTimeBetweenCharsMultiplier: 1
