@@ -90,6 +90,7 @@ public class NPCNavigation : MonoBehaviour
 		_currentPursuingTime = 0.0f;
 		_fleeing = false;
 		_fleeingObject = null;
+        GameManager.Instance.AddEnemyPursuing();
 	}
 
 	public void CancelPursue()
@@ -97,6 +98,7 @@ public class NPCNavigation : MonoBehaviour
         _basePointIndex = Random.Range(0, _possibleBasePoints.Length);
         GoToTarget(_possibleBasePoints[_basePointIndex]);
 		_returningToBase = true;
+		GameManager.Instance.RemoveEnemyPursuing();
 	}
 
 	public void FleeTarget(Transform fleeingObject)

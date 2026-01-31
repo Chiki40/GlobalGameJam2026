@@ -43,11 +43,13 @@ public class UIManager : MonoBehaviour
 	public void ShowFullScreenItemUI(ItemData item)
 	{
 		_fullScreenItemUI.ShowItem(item);
+		GameManager.Instance.ChangeInputMapping(ui: true);
 	}
 
 	public void HideFullScreenItemID()
 	{
 		_fullScreenItemUI.Hide();
+		GameManager.Instance.ChangeInputMapping(ui:false);
 	}
 
 	public bool IsFullScreenItemIDActive()
