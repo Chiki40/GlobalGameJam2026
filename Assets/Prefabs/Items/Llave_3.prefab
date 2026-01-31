@@ -50,12 +50,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2482592410816285018, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Name
-      value: Llave_3 Variant
+      value: Llave_3
       objectReference: {fileID: 0}
     - target: {fileID: 4926619129936742726, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2336010765372752561, guid: 7014f8a2a74fb8a4ead899a08b46a256, type: 3}
+      objectReference: {fileID: -3246186220474586056, guid: 8fd1b2b49a51cc4449052e186d77017b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

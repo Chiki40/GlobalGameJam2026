@@ -102,6 +102,11 @@ public class GameManager : MonoBehaviour
 	public void AddEnemyPursuing()
 	{
 		++_numEnemiesPursuing;
+		if (_numEnemiesPursuing == 1)
+		{
+            UtilSound.Instance.StopSound("Gameplay", 0.5f);
+            UtilSound.Instance.PlaySound("Combat", loop: true);
+		}
 	}
 
 	public void ChangeInputMapping(bool ui)
@@ -112,5 +117,16 @@ public class GameManager : MonoBehaviour
 	public void RemoveEnemyPursuing()
 	{
 		--_numEnemiesPursuing;
-	}
+        if (_numEnemiesPursuing == 0)
+        {
+            UtilSound.Instance.StopSound("Combat",0.5f);
+			UtilSound.Instance.PlaySound("EndCombat");
+            UtilSound.Instance.PlaySound("Gameplay", loop: true);
+        }
+    }
+
+	public void OnGameStart()
+	{
+        UtilSound.Instance.PlaySound("Gameplay", loop: true);
+    }
 }
