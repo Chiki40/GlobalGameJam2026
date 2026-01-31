@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2458229899673987368}
   - component: {fileID: 5061284347812004185}
   - component: {fileID: 2582993544791394571}
+  - component: {fileID: 3901016635106752746}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -133,6 +134,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  interact: 0
   mask: 0
   analogMovement: 0
   cursorLocked: 1
@@ -259,6 +261,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3fd9fc8c8090f48ad17a0c8fb6920c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskController
+--- !u!114 &3901016635106752746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121813952559150611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9c952fcc01a7b428f3a9bddfce41c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionController
+  _interactionDistance: 1
+  _interactionMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1480513558404758315
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,10 +538,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerFollowCamera
       objectReference: {fileID: 0}
-    - target: {fileID: 8762286023885395077, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -562,10 +576,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8762286024517199033, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

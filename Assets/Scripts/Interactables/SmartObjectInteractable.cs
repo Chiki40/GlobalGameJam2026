@@ -4,14 +4,19 @@ using UnityEngine;
 public abstract class SmartObjectInteractable : MonoBehaviour
 {
     protected GameObject PlayerObject;
-    private void Start()
+
+	protected virtual void Awake()
+	{
+	}
+
+	protected virtual void Start()
     {
         PlayerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
     protected virtual bool CanInteract()
     {
-        return GameManager.Instance.ControlsEnabled && !PlayerObject.GetComponent<MaskController>().MaskAnimationInProgress;
+        return !PlayerObject.GetComponent<MaskController>().MaskAnimationInProgress;
     }
 
     protected virtual void Interact()
