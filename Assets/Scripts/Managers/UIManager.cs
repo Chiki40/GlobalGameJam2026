@@ -15,6 +15,8 @@ public class UIManager : MonoBehaviour
 	private GameObject _conversationParent = null;
 	[SerializeField]
 	private TextMeshProUGUI _conversationText = null;
+	[SerializeField]
+	private FullScreenItemUI _fullScreenItemUI;
 
 	private int _currentNumItems = 0;
 
@@ -35,6 +37,23 @@ public class UIManager : MonoBehaviour
 	private void Init()
 	{
 		_conversationParent.SetActive(false);
+		_fullScreenItemUI.gameObject.SetActive(false);
+
+    }
+
+	public void ShowFullScreenItemUI(ItemData item)
+	{
+		_fullScreenItemUI.ShowItem(item);
+	}
+
+	public void HideFullScreenItemID()
+	{
+		_fullScreenItemUI.Hide();
+	}
+
+	public bool IsFullScreenItemIDActive()
+	{
+		return _fullScreenItemUI.gameObject.activeSelf;
 	}
 
 	public void AddItemUI(Sprite sprite)
