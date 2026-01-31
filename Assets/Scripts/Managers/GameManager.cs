@@ -53,7 +53,6 @@ public class GameManager : MonoBehaviour
 		_playerInput = _player.GetComponent<PlayerInput>();
 		_cancelInput = _playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
-		_player.SetActive(false);
 	}
 
 	private void Update()
@@ -143,7 +142,6 @@ public class GameManager : MonoBehaviour
 	public void StartGameplay()
 	{
         UtilSound.Instance.PlaySound("Gameplay", loop: true);
-		_player.SetActive(true);
-        ChangeInputMapping(false);
-    }
+		SetControlsEnabled(true);
+	}
 }
