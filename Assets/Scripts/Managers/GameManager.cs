@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
 
 	private GameObject _player = null;
 	private Transform _respawnTransform = null;
+	private InputAction _cancelInput = null;
+	private bool _paused = false;
 
 	private void Awake()
 	{
@@ -36,7 +39,28 @@ public class GameManager : MonoBehaviour
 	private void Start()
 	{
 		_player = GameObject.FindGameObjectWithTag("Player");
+		PlayerInput playerInput = _player.GetComponent<PlayerInput>();
+		_cancelInput = playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
+	}
+
+	private void Update()
+	{
+		if (_cancelInput.IsPressed())
+		{
+			if (_paused)
+			{
+				PauseGame(false);
+			}
+			else if (UIManager.Instance.IsFullScreenItemIDActive())
+			{
+				UIManager.Instance.HideFullScreenItemID();
+			}
+			else
+			{
+				PauseGame(true);
+			}
+		}
 	}
 
 	public void SetControlsEnabled(bool enabled)
@@ -64,5 +88,11 @@ public class GameManager : MonoBehaviour
 	public void LoadLogicMap()
 	{
 		SceneManager.LoadSceneAsync("LogicMap");
+	}
+
+	public void PauseGame(bool pause)
+	{
+		Time.timeScale = pause ? 0.0f : 1.0f;
+		_paused = pause;
 	}
 }
