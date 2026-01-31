@@ -18,20 +18,12 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void UseItem(ItemData item)
+    public bool HasItem(ItemData item)
     {
-        if (_inventory.Contains(item))
-        {
-            // Use
-            RemoveItem(item);
-        }
-		else
-		{
-			Debug.LogError("[Inventory.UseItem] ERROR. Item " + item.Name + " not present");
-		}
+        return _inventory.Contains(item);
 	}
 
-    private void RemoveItem(ItemData item)
+    public void RemoveItem(ItemData item)
     {
         if (_inventory.Contains(item))
         {
