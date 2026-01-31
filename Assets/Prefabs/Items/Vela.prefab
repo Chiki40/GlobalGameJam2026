@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 220854625419913110, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -21.78
       objectReference: {fileID: 0}
     - target: {fileID: 220854625419913110, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 220854625419913110, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -95.06
       objectReference: {fileID: 0}
     - target: {fileID: 220854625419913110, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
       propertyPath: m_LocalRotation.w
@@ -52,10 +52,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vela
       objectReference: {fileID: 0}
-    - target: {fileID: 6867871201788989746, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 2315634546743229936, guid: c68ec3137a24fff4a80c05dc5bf43f09, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
