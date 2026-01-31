@@ -1375,42 +1375,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UtilSound
       objectReference: {fileID: 0}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: clips.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 1be5ba6c5eb8ccd4e925cf209802ee49, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[1]'
-      value: 
-      objectReference: {fileID: 8300000, guid: bd081677ca49b3f43a7e28e271b6db94, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[2]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 29e8dbe3aeb537c4fb8ab5370293238c, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[3]'
-      value: 
-      objectReference: {fileID: 8300000, guid: abf33c2ce36a89a41b6c6e0773ecc4a7, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[4]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 273a8773a2ef5164eb79e6646640ec7c, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[5]'
-      value: 
-      objectReference: {fileID: 8300000, guid: fb706c615b3f70542899548d5d77c063, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[6]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 51bef8e20cab37946aec59ddcfa4c069, type: 3}
-    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
-      propertyPath: 'clips.Array.data[7]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 63488f2aec7fa9347aec5a25b7f00610, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1487,7 +1451,7 @@ PrefabInstance:
     - target: {fileID: 3342535453140489205, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 22100000, guid: f4a34d73a9cef4342a81d7fa80185cc3, type: 2}
+      objectReference: {fileID: 9100000, guid: b47461a16872b7c40ae4d1b01999de6c, type: 2}
     - target: {fileID: 4629862220434383803, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Name
       value: NPCBad
@@ -1605,10 +1569,6 @@ PrefabInstance:
     - target: {fileID: 4710808893043297589, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8611232437336789958, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
-      propertyPath: SprintSpeed
-      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
