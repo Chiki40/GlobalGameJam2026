@@ -1,11 +1,17 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
+using UnityEngine.Timeline;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class GameManager : MonoBehaviour
 {
 	[SerializeField]
 	private string _conversationTextCharSFX = null;
+
+	[SerializeField]
+	private PlayableDirector StartCinematic; 
 
 	private static GameManager _instance = null;
 	public static GameManager Instance => _instance;
@@ -15,7 +21,8 @@ public class GameManager : MonoBehaviour
 	private int _numEnemiesPursuing = 0;
 	public int NumEnemies => _numEnemiesPursuing;
 
-	private GameObject _player = null;
+    [SerializeField]
+    private GameObject _player = null;
 	private Transform _respawnTransform = null;
 	private PlayerInput _playerInput = null;
 	private InputAction _cancelInput = null;
@@ -37,14 +44,20 @@ public class GameManager : MonoBehaviour
 
 	private void Init()
 	{
+		StartCinematic.gameObject.SetActive(false);
     }
 
 	private void Start()
 	{
-		_player = GameObject.FindGameObjectWithTag("Player");
+		if (!_player)
+		{
+            _player = GameObject.FindGameObjectWithTag("Player");
+        }
+		
 		_playerInput = _player.GetComponent<PlayerInput>();
 		_cancelInput = _playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
+		_player.SetActive(false);
 	}
 
 	private void Update()
@@ -125,8 +138,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-	public void OnGameStart()
+	public void StartGame()
+	{
+		StartCinematic.gameObject.SetActive(true);
+	}
+
+	public void StartGameplay()
 	{
         UtilSound.Instance.PlaySound("Gameplay", loop: true);
+		_player.SetActive(true);
+        ChangeInputMapping(false);
     }
 }
