@@ -7,6 +7,8 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 	private string _interactSFX = null;
 	[SerializeField]
 	private UnityEvent _onInteracted = null;
+	[SerializeField]
+	private UnityEvent _onCantInteractFeedback = null;
 
 	protected GameObject _playerObject;
 	protected MaskController _maskController = null;
@@ -22,9 +24,14 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 
 	}
 
-    protected virtual bool CanInteract()
+	protected virtual bool CanInteractNoFeedback()
+	{
+		return GameManager.Instance.ControlsEnabled && !_maskController.MaskAnimationInProgress;
+	}
+
+	protected virtual bool CanInteract()
     {
-        return !_maskController.MaskAnimationInProgress;
+		return true;
     }
 
     protected virtual void Interact()
@@ -37,11 +44,32 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 		_onInteracted?.Invoke();
 	}
 
+	protected virtual void CantInteractFeedback()
+	{
+		Debug.Log("Can't interact with " + name);
+		_onCantInteractFeedback?.Invoke();
+	}
+
 	public void TryToInteract()
 	{
+		// Can't interact for game's conditions or inputs disabled
+		if (!CanInteractNoFeedback())
+		{
+			return;
+		}
+
 		if (CanInteract())
 		{
 			Interact();
 		}
+		else
+		{
+			CantInteractFeedback();
+		}
+	}
+
+	public void StartConversation(ConversationData conversationData)
+	{
+		ConversationManager.Instance.StartConversation(conversationData);
 	}
 }

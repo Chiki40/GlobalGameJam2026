@@ -16,8 +16,7 @@ public class AnimationSmartObject : SmartObjectInteractable
 
 	protected override void Interact()
 	{
-		_animator.CrossFadeInFixedTime(_animatiorStateName, 0.0f);
-
 		base.Interact();
+		_animator.CrossFadeInFixedTime(_animatiorStateName, 0.0f);
 	}
 }

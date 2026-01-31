@@ -3,9 +3,9 @@ using UnityEngine;
 public class PickableItem : SmartObjectInteractable
 {
 	[SerializeField]
-	private ItemData _requiredItem = null;
+	private ItemData[] _requiredItems = null;
 	[SerializeField]
-    private ItemData _itemToGive = null;
+    private ItemData[] _itemsToGive = null;
 
 	private Inventory _playerInventory = null;
 
@@ -22,24 +22,53 @@ public class PickableItem : SmartObjectInteractable
 
 	protected override bool CanInteract()
 	{
-		return base.CanInteract() &&
-			(_requiredItem == null ||
-				(_playerInventory != null && _playerInventory.HasItem(_requiredItem)));
+		bool canInteract = base.CanInteract();
+
+		if (canInteract)
+		{
+			if (_requiredItems != null && _requiredItems.Length > 0)
+			{
+				for (int i = 0; i < _requiredItems.Length; ++i)
+				{
+					if (!_playerInventory.HasItem(_requiredItems[i]))
+					{
+						canInteract = false;
+						break;
+					}
+				}
+			}
+		}
+
+		return canInteract;
 	}
 
 	protected override void Interact()
     {
-		if (_requiredItem != null)
-		{
-			_playerInventory.RemoveItem(_requiredItem);
-		}
-
-		if (_itemToGive != null)
-		{
-			_playerInventory.AddItem(_itemToGive);
-		}
-
 		base.Interact();
+
+		if (_requiredItems != null && _requiredItems.Length > 0)
+		{
+			for (int i = 0; i < _requiredItems.Length; ++i)
+			{
+				if (_playerInventory.HasItem(_requiredItems[i]))
+				{
+					_playerInventory.RemoveItem(_requiredItems[i]);
+				}
+			}
+		}
+
+		if (_itemsToGive != null && _itemsToGive.Length > 0)
+		{
+			for (int i = 0; i < _itemsToGive.Length; ++i)
+			{
+				_playerInventory.AddItem(_itemsToGive[i]);
+			}
+		}
+	}
+
+	protected override void CantInteractFeedback()
+	{
+		base.CantInteractFeedback();
 	}
 
 	public void Destroy()
