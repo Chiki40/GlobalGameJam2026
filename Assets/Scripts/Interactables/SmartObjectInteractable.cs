@@ -72,4 +72,9 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 	{
 		ConversationManager.Instance.StartConversation(conversationData);
 	}
+
+	public void LoadLogicMap()
+	{
+		GameManager.Instance.LoadLogicMap();
+	}
 }
