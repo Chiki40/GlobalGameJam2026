@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4135070970246041902, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
       propertyPath: m_Name
-      value: Vela Variant
+      value: Vela
       objectReference: {fileID: 0}
     - target: {fileID: 6867871201788989746, guid: 06050e6e54178a4458fa4872ef21d188, type: 3}
       propertyPath: m_Mesh
