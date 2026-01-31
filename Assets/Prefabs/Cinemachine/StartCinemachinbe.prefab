@@ -6464,7 +6464,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 590783809237865735, guid: 3fa36fc63af189144a8e5c764d3d2032, type: 3}
+    - {fileID: 6735599635924100210, guid: 3fa36fc63af189144a8e5c764d3d2032, type: 3}
+    - {fileID: 4432149737987883695, guid: 3fa36fc63af189144a8e5c764d3d2032, type: 3}
+    - {fileID: 1037232121565861764, guid: 3fa36fc63af189144a8e5c764d3d2032, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -6487,7 +6491,7 @@ Animator:
   m_GameObject: {fileID: 3158908483286035589}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: fec6195105b3a254986240fe6c6d9a06, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
