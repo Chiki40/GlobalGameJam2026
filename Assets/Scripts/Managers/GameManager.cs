@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
 
 	private bool _controlsEnabled = true;
 	public bool ControlsEnabled => _controlsEnabled;
+	private int _numEnemiesPursuing = 0;
+	public int NumEnemies => _numEnemiesPursuing;
 
 	private GameObject _player = null;
 	private Transform _respawnTransform = null;
@@ -94,5 +96,15 @@ public class GameManager : MonoBehaviour
 	{
 		Time.timeScale = pause ? 0.0f : 1.0f;
 		_paused = pause;
+	}
+
+	public void AddEnemyPursuing()
+	{
+		++_numEnemiesPursuing;
+	}
+
+	public void RemoveEnemyPursuing()
+	{
+		--_numEnemiesPursuing;
 	}
 }
