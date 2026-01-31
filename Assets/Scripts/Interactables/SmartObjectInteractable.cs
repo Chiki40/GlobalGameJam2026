@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class SmartObjectInteractable : MonoBehaviour
+public abstract class SmartObjectInteractable : MonoBehaviour
 {
     protected GameObject PlayerObject;
     private void Start()
@@ -9,8 +9,21 @@ public class SmartObjectInteractable : MonoBehaviour
         PlayerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
-    virtual public void Interact()
+    protected virtual bool CanInteract()
     {
-        Debug.Log(name + "Interacted");
+        return GameManager.Instance.ControlsEnabled && !PlayerObject.GetComponent<MaskController>().MaskAnimationInProgress;
     }
+
+    protected virtual void Interact()
+    {
+		Debug.Log(name + "Interacted");
+	}
+
+	public void TryToInteract()
+	{
+		if (CanInteract())
+		{
+			Interact();
+		}
+	}
 }

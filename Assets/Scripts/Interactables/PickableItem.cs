@@ -3,7 +3,7 @@ using UnityEngine;
 public class PickableItem : SmartObjectInteractable
 {
     public ItemData ItemToGive;
-    public override void Interact()
+	protected override void Interact()
     {
         base.Interact();
 

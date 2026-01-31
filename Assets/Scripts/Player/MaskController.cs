@@ -6,6 +6,7 @@ public class MaskController : MonoBehaviour
 {
     private bool _maskOn = false;
     private bool _maskAnimationInProgress = false;
+    public bool MaskAnimationInProgress => _maskAnimationInProgress;
 
     private Animator _animator = null;
 	private StarterAssetsInputs _input = null;
