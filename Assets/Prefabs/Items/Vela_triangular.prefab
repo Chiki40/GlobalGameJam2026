@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1336307873902100814, guid: 865a1ebcc82d7bc43a0a3f1d86ad4006, type: 3}
       propertyPath: m_Name
-      value: Vela_tiangular Variant
+      value: Vela_triangular
       objectReference: {fileID: 0}
     - target: {fileID: 2952566752859551734, guid: 865a1ebcc82d7bc43a0a3f1d86ad4006, type: 3}
       propertyPath: m_LocalPosition.x
