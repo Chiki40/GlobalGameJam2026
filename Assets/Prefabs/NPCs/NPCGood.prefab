@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 821638782, guid: c1d5f9aa0aa5e6f47a1da91d07f777e5, type: 3}
+  m_Sprite: {fileID: -1387416333, guid: 8813d98fec121bf47b41cd4f83ef8833, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +103,7 @@ Animator:
   m_GameObject: {fileID: 3243312089787306166}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b8e464452d3a1ae4d99e8a6a8c5faa35, type: 2}
+  m_Controller: {fileID: 9100000, guid: b47461a16872b7c40ae4d1b01999de6c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 2573271711997369701}
   - component: {fileID: 3887941814511614017}
   - component: {fileID: 4499664007679885872}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NPCGood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,8 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ba28913563c25d48802a360f26385f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  _basePoint: {fileID: 0}
-  _purseTime: 5
+  _possibleBasePoints: []
 --- !u!114 &3887941814511614017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc54db41b0957634fa1a938a42d0325d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCGood
+  _detectionDistance: 4
 --- !u!114 &4499664007679885872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,3 +247,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801f55b1f4d3b4544a106241fd1ac3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteractable
+  _interactSFX: 
+  _onInteracted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onCantInteractFeedback:
+    m_PersistentCalls:
+      m_Calls: []
+  Conversation: {fileID: 0}

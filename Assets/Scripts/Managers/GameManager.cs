@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
 	{
 		if (_respawnTransform != null)
 		{
-			_player.transform.position = _respawnTransform.position;
+			_player.transform.SetLocalPositionAndRotation(_respawnTransform.position, _respawnTransform.rotation);
 			Physics.SyncTransforms();
 		}
 	}
@@ -102,15 +102,32 @@ public class GameManager : MonoBehaviour
 	public void AddEnemyPursuing()
 	{
 		++_numEnemiesPursuing;
+		if (_numEnemiesPursuing == 1)
+		{
+            UtilSound.Instance.StopSound("Gameplay", 0.5f);
+            UtilSound.Instance.PlaySound("Combat", loop: true);
+		}
 	}
 
 	public void ChangeInputMapping(bool ui)
 	{
 		_playerInput.SwitchCurrentActionMap(ui ? "UI" : "Player");
+		Cursor.visible = ui;
 	}
 
 	public void RemoveEnemyPursuing()
 	{
 		--_numEnemiesPursuing;
-	}
+        if (_numEnemiesPursuing == 0)
+        {
+            UtilSound.Instance.StopSound("Combat");
+			UtilSound.Instance.PlaySound("EndCombat");
+            UtilSound.Instance.PlaySound("Gameplay", loop: true);
+        }
+    }
+
+	public void OnGameStart()
+	{
+        UtilSound.Instance.PlaySound("Gameplay", loop: true);
+    }
 }

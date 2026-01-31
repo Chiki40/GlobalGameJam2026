@@ -50,12 +50,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2482592410816285018, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Name
-      value: Nota Variant
+      value: Nota
       objectReference: {fileID: 0}
     - target: {fileID: 4926619129936742726, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 8075118586951364873, guid: 572eccb525aa85f4dabbe69e024c4ca9, type: 3}
+    - target: {fileID: 7077193018622412663, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8508057f0a5d68c48a70d09dcfdf5367, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
