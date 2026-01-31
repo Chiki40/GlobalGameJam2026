@@ -125,6 +125,7 @@ public class GameManager : MonoBehaviour
 	public void ChangeInputMapping(bool ui)
 	{
 		_playerInput.SwitchCurrentActionMap(ui ? "UI" : "Player");
+		Cursor.visible = ui;
 	}
 
 	public void RemoveEnemyPursuing()
