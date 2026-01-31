@@ -85,3 +85,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCBad
   _detectionDistance: 4
   _purseTime: 5
+  _attackDistanceOffset: 0.05

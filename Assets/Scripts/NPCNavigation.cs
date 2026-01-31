@@ -20,6 +20,8 @@ public class NPCNavigation : MonoBehaviour
 	private Transform _fleeingObject = null;
     private bool _lastWalkingAnimation = false;
 
+    public NavMeshAgent Agent => _agent;
+
 	public bool IsPursuing(Transform target) => _pursuing && _target == target;
     public bool IsReturningToBase => _returningToBase;
     public bool IsFleeing(Transform target) => _fleeing && _fleeingObject == target;

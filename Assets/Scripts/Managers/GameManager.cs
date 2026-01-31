@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
 	{
 		if (_respawnTransform != null)
 		{
-			_player.transform.position = _respawnTransform.position;
+			_player.transform.SetLocalPositionAndRotation(_respawnTransform.position, _respawnTransform.rotation);
 			Physics.SyncTransforms();
 		}
 	}
