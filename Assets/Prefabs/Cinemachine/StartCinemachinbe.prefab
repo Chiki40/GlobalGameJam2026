@@ -170,13 +170,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687367412964507793}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0018201608, y: 0.9939016, z: -0.01682851, w: -0.1089641}
-  m_LocalPosition: {x: 64.01, y: 1.46, z: 51.86}
+  m_LocalRotation: {x: 0.0031615181, y: 0.91904247, z: -0.016628785, w: -0.3937949}
+  m_LocalPosition: {x: 57.3, y: 0.85, z: 44.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7501855023425266359}
-  m_LocalEulerAnglesHint: {x: 1.94, y: -167.487, z: 0.003}
+  m_LocalEulerAnglesHint: {x: 1.609, y: -133.596, z: 1.084}
 --- !u!114 &8123386432474772602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,6 +665,8 @@ GameObject:
   - component: {fileID: 905011420963961462}
   - component: {fileID: 4106424898668309754}
   - component: {fileID: 6555980964227585992}
+  - component: {fileID: 2936722580241344241}
+  - component: {fileID: 3435234391387466003}
   m_Layer: 0
   m_Name: LastPlane2
   m_TagString: Untagged
@@ -680,13 +682,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3027335195233773513}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.013380011, y: 0.9864958, z: -0.122268915, w: -0.1081548}
-  m_LocalPosition: {x: 63.15, y: 9.77, z: 48.02}
+  m_LocalRotation: {x: -0.0008350156, y: 0.9626517, z: 0.015518087, w: -0.27029634}
+  m_LocalPosition: {x: 13.099998, y: 18.4, z: 36.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7501855023425266359}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.686, y: -148.624, z: -0.573}
 --- !u!114 &905011420963961462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,6 +780,53 @@ MonoBehaviour:
     RotationDamping: {x: 0, y: 0, z: 0}
     QuaternionDamping: 0
   FollowOffset: {x: 0, y: 0, z: -10}
+--- !u!114 &2936722580241344241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3027335195233773513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e62c82b3be64042ac529dee964cc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineStoryboard
+  ShowImage: 1
+  Image: {fileID: 0}
+  Aspect: 0
+  Alpha: 0
+  Center: {x: 0, y: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  Scale: {x: 1, y: 1}
+  SyncScale: 1
+  MuteCamera: 0
+  SplitView: 0
+  RenderMode: 0
+  SortingOrder: 0
+  PlaneDistance: 100
+--- !u!95 &3435234391387466003
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3027335195233773513}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5504389732325167001
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,7 +982,7 @@ Transform:
   m_GameObject: {fileID: 6007664735347289819}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0040848833, y: 0.999767, z: -0.01931523, w: -0.00872889}
-  m_LocalPosition: {x: 56.63, y: 1.72, z: 42.85}
+  m_LocalPosition: {x: 63.84, y: 1.55, z: 49.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -953,7 +1002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Cinemachine::Cinemachine.CinemachineStoryboard
   ShowImage: 1
   Image: {fileID: 2800000, guid: ce5304cd098abd84288c4a6f1a665544, type: 3}
-  Aspect: 1
+  Aspect: 2
   Alpha: 1
   Center: {x: 0, y: 0}
   Rotation: {x: 0, y: 0, z: 0}
@@ -5988,6 +6037,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -5800926626959411058, guid: ba342cb94d121234a8ad7b1e9bf4427e, type: 2}
     value: {fileID: 8400105306778910072}
+  - key: {fileID: -3654597793073593667, guid: ba342cb94d121234a8ad7b1e9bf4427e, type: 2}
+    value: {fileID: 3435234391387466003}
   m_ExposedReferences:
     m_References:
     - 02b1887ec33a3054d8fc136bc073ab88: {fileID: 4332988307397383612}
@@ -6134,7 +6185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Cinemachine::Cinemachine.CinemachineStoryboard
   ShowImage: 1
   Image: {fileID: 2800000, guid: ce5304cd098abd84288c4a6f1a665544, type: 3}
-  Aspect: 0
+  Aspect: 2
   Alpha: 1
   Center: {x: 0, y: 0}
   Rotation: {x: 0, y: 0, z: 0}
