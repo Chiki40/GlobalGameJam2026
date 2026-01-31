@@ -173,7 +173,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_TargetDisplay: 0
 --- !u!114 &7877947566852949782
 MonoBehaviour:
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 4
-  SprintSpeed: 6
+  SprintSpeed: 8
   RotationSpeed: 1
   SpeedChangeRate: 10
   JumpHeight: 1.2
@@ -406,6 +406,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  mask: 0
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
@@ -531,7 +532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3fd9fc8c8090f48ad17a0c8fb6920c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskController
-  _maskProcessDuration: 1
 --- !u!1001 &1670044357377932487
 PrefabInstance:
   m_ObjectHideFlags: 0

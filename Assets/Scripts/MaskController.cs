@@ -1,25 +1,31 @@
+using StarterAssets;
 using System.Collections;
 using UnityEngine;
 
 public class MaskController : MonoBehaviour
 {
-    [SerializeField]
-    private float _maskProcessDuration = 1.0f;
-
     private bool _maskOn = false;
     private bool _maskAnimationInProgress = false;
 
     private Animator _animator = null;
+	private StarterAssetsInputs _input = null;
 
-    public bool IsMaskOn => _maskOn;
+	public bool IsMaskOn => _maskOn;
 
 	private void Awake()
 	{
         _animator = GetComponent<Animator>();
+		_input = GetComponent<StarterAssetsInputs>();
 	}
 
-	public void ToggleMask()
+	private void Update()
     {
+        if (!_input.mask)
+        {
+            return;
+        }
+        _input.mask = false;
+
         if (_maskAnimationInProgress)
         {
             return;
