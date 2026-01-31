@@ -19,11 +19,6 @@ public class NPCNavigation : MonoBehaviour
 		_agent = GetComponent<NavMeshAgent>();
 	}
 
-    private void Start()
-    {
-		GoToTarget(GameObject.FindGameObjectWithTag("Player").transform);
-	}
-
 	public void SetAgentEnabled(bool enabled)
 	{
         _agent.isStopped = !enabled;
