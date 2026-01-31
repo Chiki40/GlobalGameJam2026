@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
 		--_numEnemiesPursuing;
         if (_numEnemiesPursuing == 0)
         {
-            UtilSound.Instance.StopSound("Combat",0.5f);
+            UtilSound.Instance.StopSound("Combat");
 			UtilSound.Instance.PlaySound("EndCombat");
             UtilSound.Instance.PlaySound("Gameplay", loop: true);
         }
