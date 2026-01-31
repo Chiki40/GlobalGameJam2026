@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Gallaecia Castelo
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 68f55ca5495583e45a78975b32470c57, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

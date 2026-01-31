@@ -27,6 +27,7 @@ public class MainMenuManager : MonoBehaviour
 
 	public void StartGame()
     {
+        UtilSound.Instance.PlaySound("StartGame");
 		GameManager.Instance.SetControlsEnabled(true);
 		GameManager.Instance.ChangeInputMapping(ui: false);
 		gameObject.SetActive(false);

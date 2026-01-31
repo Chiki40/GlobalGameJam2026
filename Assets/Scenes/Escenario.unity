@@ -429,6 +429,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
+--- !u!114 &428609796 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4332988307397383612, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
+  m_PrefabInstance: {fileID: 428609795}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+--- !u!320 &428609797 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 6179569433237109262, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
+  m_PrefabInstance: {fileID: 428609795}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &523328239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,6 +1391,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UtilSound
       objectReference: {fileID: 0}
+    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
+      propertyPath: clips.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466273314901754653, guid: dd254d55c4b5fef49bfd497886af341a, type: 3}
+      propertyPath: 'clips.Array.data[11]'
+      value: 
+      objectReference: {fileID: 8300000, guid: eaeb9c0da2a75e9478b70d06633aab0a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1391,6 +1415,30 @@ PrefabInstance:
     - target: {fileID: 608777630986101315, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
       propertyPath: m_Name
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227853885443728974, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227853885443728974, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227853885443728974, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227853885443728974, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227853885443728974, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227853885443728974, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3194469564797249708, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1456,6 +1504,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6515877928095486137, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
+      propertyPath: StartCinematic
+      value: 
+      objectReference: {fileID: 428609796}
     - target: {fileID: 8804790132220293588, guid: d9f081bf06e030a4ebfb62b578fadec9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1635,6 +1687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameStuff
       objectReference: {fileID: 0}
+    - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: StartCinematic
+      value: 
+      objectReference: {fileID: 428609797}
     - target: {fileID: 4710808893043297589, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
