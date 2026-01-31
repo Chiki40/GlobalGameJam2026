@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
 	private bool _controlsEnabled = true;
 	public bool ControlsEnabled => _controlsEnabled;
 
+	private GameObject _player = null;
+	private Transform _respawnTransform = null;
+
 	private void Awake()
 	{
 		if (_instance == null)
@@ -29,6 +32,12 @@ public class GameManager : MonoBehaviour
 	{
     }
 
+	private void Start()
+	{
+		_player = GameObject.FindGameObjectWithTag("Player");
+		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
+	}
+
 	public void SetControlsEnabled(bool enabled)
 	{
 		_controlsEnabled = enabled;
@@ -39,6 +48,15 @@ public class GameManager : MonoBehaviour
 		if (!string.IsNullOrEmpty(text) && !string.IsNullOrEmpty(_conversationTextCharSFX))
 		{
 			UtilSound.Instance.PlaySound(_conversationTextCharSFX);
+		}
+	}
+
+	public void Respawn()
+	{
+		if (_respawnTransform != null)
+		{
+			_player.transform.position = _respawnTransform.position;
+			Physics.SyncTransforms();
 		}
 	}
 }

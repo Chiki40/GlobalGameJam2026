@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5061284347812004185}
   - component: {fileID: 2582993544791394571}
   - component: {fileID: 3901016635106752746}
+  - component: {fileID: -3171006717678066694}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -263,6 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3fd9fc8c8090f48ad17a0c8fb6920c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskController
+  _maskOnLoop: 
 --- !u!114 &3901016635106752746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +281,19 @@ MonoBehaviour:
   _interactionMask:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &-3171006717678066694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121813952559150611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd6fd14cde253254f90dcab78bba35ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageComponent
+  InitialHealth: 1
 --- !u!1 &1480513558404758315
 GameObject:
   m_ObjectHideFlags: 0
