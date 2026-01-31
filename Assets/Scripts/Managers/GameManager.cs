@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+	[SerializeField]
+	private string _conversationTextCharSFX = null;
+
 	private static GameManager _instance = null;
 	public static GameManager Instance => _instance;
 
@@ -29,5 +32,13 @@ public class GameManager : MonoBehaviour
 	public void SetControlsEnabled(bool enabled)
 	{
 		_controlsEnabled = enabled;
+	}
+
+	public void PlayConversationTextCharSFX(string text)
+	{
+		if (!string.IsNullOrEmpty(text) && !string.IsNullOrEmpty(_conversationTextCharSFX))
+		{
+			UtilSound.Instance.PlaySound(_conversationTextCharSFX);
+		}
 	}
 }

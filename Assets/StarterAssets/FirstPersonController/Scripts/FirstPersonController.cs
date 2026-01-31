@@ -208,12 +208,14 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
-				_currentDistanceForStepSFX += _speed * Time.deltaTime;
-				if (_currentDistanceForStepSFX >= _distanceForStepsSFX)
+				if (!string.IsNullOrEmpty(_stepsSFX))
 				{
-					//UtilSound.Instance.PlaySound(_stepsSFX);
-					Debug.Log("Paso");
-					_currentDistanceForStepSFX = 0.0f;
+					_currentDistanceForStepSFX += _speed * Time.deltaTime;
+					if (_currentDistanceForStepSFX >= _distanceForStepsSFX)
+					{
+						UtilSound.Instance.PlaySound(_stepsSFX);
+						_currentDistanceForStepSFX = 0.0f;
+					}
 				}
 			}
 

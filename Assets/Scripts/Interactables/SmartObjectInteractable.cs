@@ -4,6 +4,8 @@ using UnityEngine.Events;
 public abstract class SmartObjectInteractable : MonoBehaviour
 {
 	[SerializeField]
+	private string _interactSFX = null;
+	[SerializeField]
 	private UnityEvent _onInteracted = null;
 
 	protected GameObject _playerObject;
@@ -28,6 +30,10 @@ public abstract class SmartObjectInteractable : MonoBehaviour
     protected virtual void Interact()
     {
 		Debug.Log(name + "Interacted");
+		if (!string.IsNullOrEmpty(_interactSFX))
+		{
+			UtilSound.Instance.PlaySound(_interactSFX);
+		}
 		_onInteracted?.Invoke();
 	}
 

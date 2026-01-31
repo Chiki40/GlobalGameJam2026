@@ -465,6 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c64963c85cfe14e9b0e2b6b1c3edf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _conversationTextCharSFX: 
 --- !u!114 &7515425466860551464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,6 +502,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7515425466860551464}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: SetConversationText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1580012588477900754}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PlayConversationTextCharSFX
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

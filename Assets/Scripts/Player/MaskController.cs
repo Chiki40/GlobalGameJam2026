@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MaskController : MonoBehaviour
 {
+    [SerializeField]
+    private string _maskOnLoop = null;
+
     private bool _maskOn = false;
     private bool _maskAnimationInProgress = false;
     public bool MaskAnimationInProgress => _maskAnimationInProgress;
@@ -53,6 +56,10 @@ public class MaskController : MonoBehaviour
 			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
 			_maskAnimationInProgress = false;
 			_maskOn = true;
+            if (!string.IsNullOrEmpty(_maskOnLoop))
+            {
+                UtilSound.Instance.PlaySound(_maskOnLoop, loop: true);
+            }
 			Debug.Log("Mask on");
 		}
         StartCoroutine(PutMaskCoroutine());
@@ -63,6 +70,10 @@ public class MaskController : MonoBehaviour
 		IEnumerator RemoveMaskCoroutine()
 		{
 			_maskAnimationInProgress = true;
+			if (!string.IsNullOrEmpty(_maskOnLoop))
+			{
+				UtilSound.Instance.StopSound(_maskOnLoop);
+			}
 			_animator.SetTrigger("MaskOff");
 			yield return null;
 			yield return new WaitUntil(() => !_animator.IsInTransition(0));
