@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
 
 	private GameObject _player = null;
 	private Transform _respawnTransform = null;
+	private PlayerInput _playerInput = null;
 	private InputAction _cancelInput = null;
 	private bool _paused = false;
 
@@ -41,8 +42,8 @@ public class GameManager : MonoBehaviour
 	private void Start()
 	{
 		_player = GameObject.FindGameObjectWithTag("Player");
-		PlayerInput playerInput = _player.GetComponent<PlayerInput>();
-		_cancelInput = playerInput.actions.FindAction("Cancel");
+		_playerInput = _player.GetComponent<PlayerInput>();
+		_cancelInput = _playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
 	}
 
@@ -106,6 +107,11 @@ public class GameManager : MonoBehaviour
             UtilSound.Instance.StopSound("Gameplay", 0.5f);
             UtilSound.Instance.PlaySound("Combat", loop: true);
 		}
+	}
+
+	public void ChangeInputMapping(bool ui)
+	{
+		_playerInput.SwitchCurrentActionMap(ui ? "UI" : "Player");
 	}
 
 	public void RemoveEnemyPursuing()
