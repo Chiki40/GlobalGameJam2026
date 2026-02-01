@@ -76,6 +76,22 @@ PrefabInstance:
       propertyPath: m_MinParticleSize
       value: 0.04
       objectReference: {fileID: 0}
+    - target: {fileID: 5238751641091411215, guid: 77c4c7fa832e31c418d419e2a1855598, type: 3}
+      propertyPath: m_Size.x
+      value: 0.25958616
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238751641091411215, guid: 77c4c7fa832e31c418d419e2a1855598, type: 3}
+      propertyPath: m_Size.z
+      value: 0.32015336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238751641091411215, guid: 77c4c7fa832e31c418d419e2a1855598, type: 3}
+      propertyPath: m_Center.x
+      value: 0.045206934
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238751641091411215, guid: 77c4c7fa832e31c418d419e2a1855598, type: 3}
+      propertyPath: m_Center.z
+      value: -0.040076673
+      objectReference: {fileID: 0}
     - target: {fileID: 5539611907476231990, guid: 77c4c7fa832e31c418d419e2a1855598, type: 3}
       propertyPath: prewarm
       value: 0

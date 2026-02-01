@@ -14,11 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Size.y
-      value: 1.46
+      value: 1.3986809
       objectReference: {fileID: 0}
     - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Center.y
-      value: 0.27
+      value: 0.23934047
       objectReference: {fileID: 0}
     - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_IsTrigger

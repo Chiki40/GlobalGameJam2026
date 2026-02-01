@@ -10,15 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Size.x
-      value: 0.27
+      value: 0.42055428
       objectReference: {fileID: 0}
     - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Size.y
-      value: 0.26
+      value: 0.18605775
       objectReference: {fileID: 0}
     - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Size.z
       value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: m_Center.x
+      value: -0.03663546
+      objectReference: {fileID: 0}
+    - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: m_Center.y
+      value: -0.036971122
+      objectReference: {fileID: 0}
+    - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: m_Center.z
+      value: -5.958698e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1729922786755182562, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -126,7 +138,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _requiredItems: []
   _onCantInteractFeedback:
     m_PersistentCalls:
       m_Calls: []
-  ItemData: {fileID: 0}
+  ItemData: {fileID: 11400000, guid: e892ed54a29852c48a5a1a3c5c441513, type: 2}

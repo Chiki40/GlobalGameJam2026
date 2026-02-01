@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
 
 	public void LoadLogicMap()
 	{
-		SceneManager.LoadSceneAsync("LogicMap");
+		SceneManager.LoadSceneAsync("LogicMap", LoadSceneMode.Additive);
 	}
 
 	public void PauseGame(bool pause)
@@ -151,6 +151,7 @@ public class GameManager : MonoBehaviour
 		SetControlsEnabled(true);
 		UIManager.Instance.ActivateInventory(true);
 		_aim.enabled = true;
+		LoadLogicMap();
 	}
 
 	public void StartEndCinematic()
