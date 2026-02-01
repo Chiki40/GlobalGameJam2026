@@ -58,7 +58,11 @@ PrefabInstance:
       objectReference: {fileID: -289216812, guid: fc22dd3d26c07a04f986ba5c2072c5f8, type: 3}
     - target: {fileID: 8939842569310244931, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: m_Name
-      value: NPCGoodManu Variant
+      value: NPCGoodManu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998786114633590663, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

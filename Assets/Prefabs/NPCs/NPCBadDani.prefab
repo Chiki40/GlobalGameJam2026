@@ -58,7 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 22100000, guid: 2348cb87b6e653e4188393c4231e9f34, type: 2}
     - target: {fileID: 4629862220434383803, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Name
-      value: NPCBadDani Variant
+      value: NPCBadDani
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661854605580883071, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
