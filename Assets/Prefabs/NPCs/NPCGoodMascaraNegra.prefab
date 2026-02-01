@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCGoodMascaraNegra
       objectReference: {fileID: 0}
+    - target: {fileID: 8998786114633590663, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

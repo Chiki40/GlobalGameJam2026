@@ -58,7 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 22100000, guid: 88d7640dfb21e4f449db156361808d40, type: 2}
     - target: {fileID: 4629862220434383803, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Name
-      value: NPCBadBea2 Variant
+      value: NPCBadBea2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661854605580883071, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

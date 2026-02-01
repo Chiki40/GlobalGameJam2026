@@ -14,7 +14,7 @@ public class DamageComponent : MonoBehaviour
 
     public void TakeDamage()
     {
-        --CurrentHealt;
+        //--CurrentHealt;
         if (CurrentHealt <= 0)
         {
             KillPlayer();

@@ -71,9 +71,12 @@ namespace StarterAssets
 		// Steps SFX
 		private float _currentDistanceForStepSFX = 0.0f;
 
+		private bool _sprinting = false;
+
 	
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
+		private InputAction _sprintAction;
 #endif
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
@@ -108,6 +111,7 @@ namespace StarterAssets
 			_input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM
 			_playerInput = GetComponent<PlayerInput>();
+			_sprintAction = _playerInput.actions.FindAction("Sprint");
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
 #endif
@@ -158,8 +162,13 @@ namespace StarterAssets
 
 		private void Move()
 		{
+			if (_sprintAction.IsPressed())
+			{
+				_sprinting = true;
+			}
+
 			// set target speed based on move speed, sprint speed and if sprint is pressed
-			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			float targetSpeed = _sprinting ? SprintSpeed : MoveSpeed;
 
 			if (!GameManager.Instance.ControlsEnabled)
 			{
@@ -170,9 +179,9 @@ namespace StarterAssets
 
 			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is no input, set the target speed to 0
-			if (_input.move == Vector2.zero)
+			if (_input.move == Vector2.zero && !_sprintAction.IsPressed())
 			{
-				_input.sprint = false;
+				_sprinting = false;
 				targetSpeed = 0.0f;
 			}
 

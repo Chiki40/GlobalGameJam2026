@@ -38,7 +38,13 @@ public class UIManager : MonoBehaviour
 	{
 		_conversationParent.SetActive(false);
 		_fullScreenItemUI.gameObject.SetActive(false);
+		_inventoryParent.gameObject.SetActive(false);
     }
+
+	public void ActivateInventory(bool enable)
+	{
+		_inventoryParent.gameObject.SetActive(enable);
+	}
 
 	public void ShowFullScreenItemUI(ItemData item)
 	{
