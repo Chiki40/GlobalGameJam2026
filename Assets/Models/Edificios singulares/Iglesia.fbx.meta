@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Mat_Interior_iglesia
+    second: {fileID: 2100000, guid: ac80bc9848ae33a4a9c5503a52a2610a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Mat_pared_estuco
     second: {fileID: 2100000, guid: cb365bb99901f0641bb6edcc62f7a875, type: 2}
   - first:
