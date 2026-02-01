@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac2b5ce7c0a59a743831a7e88f0f9399
+guid: 498e1475eb4846b42b82d60cf3608bd6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: e91713c9e04be1949857016c6a47d158, type: 2}
+      name: Cartel_Casa_Parroquial_1Material
+    second: {fileID: 2100000, guid: d2698983c2b8fc94c81ce125a0b2200c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
