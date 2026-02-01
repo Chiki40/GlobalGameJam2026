@@ -1335,47 +1335,47 @@ PrefabInstance:
       objectReference: {fileID: 23800000, guid: 9d47abe598a0fde4e9e7fb710943a7df, type: 2}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 142.09637
+      value: 27.9
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.734358
+      value: 1.535
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 148.48828
+      value: 53.3
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.21503395
+      value: 0.106698036
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.02128085
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9716235
+      value: -0.99429154
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.096204795
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: field of view
-      value: 60.000004
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: far clip plane
-      value: 1000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: near clip plane
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: orthographic size
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: StartCinematic
@@ -1421,6 +1421,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6481923681195094571, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761629101670928065, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761629101670928065, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f0b9c847375aad46abe999536ba08af, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
