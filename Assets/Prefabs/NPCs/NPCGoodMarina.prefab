@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2043263556, guid: 8b194eeb067c16c48995b4862ec1f232, type: 3}
+    - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _conversation
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f0ca098e646ad94fa515d08c1806df0, type: 2}
     - target: {fileID: 8939842569310244931, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: m_Name
       value: NPCGoodMarina
