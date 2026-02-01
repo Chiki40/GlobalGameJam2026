@@ -62,9 +62,4 @@ public class PickableItem : SmartObjectInteractable
 	{
 		base.CantInteractFeedback();
 	}
-
-	public void Destroy()
-	{
-		Destroy(gameObject);
-	}
 }

@@ -69,6 +69,11 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 		}
 	}
 
+	public void Destroy()
+	{
+		Destroy(gameObject);
+	}
+
 	public void AddItem(ItemData item)
 	{
 		_playerInventory.AddItem(item);
