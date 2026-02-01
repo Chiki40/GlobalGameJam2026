@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
 		_playerInput = _player.GetComponent<PlayerInput>();
 		_cancelInput = _playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
-		_aim.enabled = false;
+		_aim.gameObject.SetActive(false);
 	}
 
 	private void Update()
@@ -150,13 +150,13 @@ public class GameManager : MonoBehaviour
         UtilSound.Instance.PlaySound("Gameplay", loop: true);
 		SetControlsEnabled(true);
 		UIManager.Instance.ActivateInventory(true);
-		_aim.enabled = true;
+		_aim.gameObject.SetActive(true);
 		LoadLogicMap();
 	}
 
 	public void StartEndCinematic()
 	{
-		_aim.enabled = false;
+		_aim.gameObject.SetActive(false);
 		EndCinematic.GetComponent<PlayableDirector>().Play();
 	}
 }

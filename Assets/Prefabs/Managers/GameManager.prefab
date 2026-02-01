@@ -667,8 +667,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c64963c85cfe14e9b0e2b6b1c3edf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _aim: {fileID: 0}
   _conversationTextCharSFX: 
   StartCinematic: {fileID: 0}
+  EndCinematic: {fileID: 0}
 --- !u!114 &7515425466860551464
 MonoBehaviour:
   m_ObjectHideFlags: 0
