@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb55956d697c111418822dff57b51db9, type: 3}
   m_Name: Item_calabaza_off
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Name: Item0
+  Name: calabaza_off
   Image: {fileID: 21300000, guid: 9f0b9c847375aad46abe999536ba08af, type: 3}
