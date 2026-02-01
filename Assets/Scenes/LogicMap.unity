@@ -619,6 +619,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 618615395526337529, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 618615395526337529, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.005
+      objectReference: {fileID: 0}
     - target: {fileID: 2280417759362020070, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8
@@ -910,7 +918,7 @@ PrefabInstance:
     - target: {fileID: 470094104272914904, guid: 4ce6ebf7ef50fb1409e7654d568ef860, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 48991499}
+      objectReference: {fileID: 0}
     - target: {fileID: 470094104272914904, guid: 4ce6ebf7ef50fb1409e7654d568ef860, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -926,7 +934,7 @@ PrefabInstance:
     - target: {fileID: 470094104272914904, guid: 4ce6ebf7ef50fb1409e7654d568ef860, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 48991499}
+      objectReference: {fileID: 0}
     - target: {fileID: 470094104272914904, guid: 4ce6ebf7ef50fb1409e7654d568ef860, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1008,17 +1016,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ce6ebf7ef50fb1409e7654d568ef860, type: 3}
---- !u!114 &48991499 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 470094104272914904, guid: 4ce6ebf7ef50fb1409e7654d568ef860, type: 3}
-  m_PrefabInstance: {fileID: 48991498}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 801f55b1f4d3b4544a106241fd1ac3da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractable
 --- !u!1001 &50793652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2268,6 +2265,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4101566411892714548, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.9
+      objectReference: {fileID: 0}
     - target: {fileID: 8273828182335753755, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_Name
       value: NPCBadDani (4)
@@ -2759,6 +2760,14 @@ PrefabInstance:
     - target: {fileID: 1266922803066651948, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.78
       objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3656,6 +3665,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 618615395526337529, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.492
+      objectReference: {fileID: 0}
     - target: {fileID: 2280417759362020070, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.473
@@ -4949,7 +4962,7 @@ PrefabInstance:
     - target: {fileID: 3486530709630115118, guid: e48283b011ff47946889173ec4b515d9, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 922231645}
+      objectReference: {fileID: 0}
     - target: {fileID: 3486530709630115118, guid: e48283b011ff47946889173ec4b515d9, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4965,7 +4978,7 @@ PrefabInstance:
     - target: {fileID: 3486530709630115118, guid: e48283b011ff47946889173ec4b515d9, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 922231645}
+      objectReference: {fileID: 0}
     - target: {fileID: 3486530709630115118, guid: e48283b011ff47946889173ec4b515d9, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -5003,17 +5016,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48283b011ff47946889173ec4b515d9, type: 3}
---- !u!114 &922231645 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3486530709630115118, guid: e48283b011ff47946889173ec4b515d9, type: 3}
-  m_PrefabInstance: {fileID: 922231644}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 801f55b1f4d3b4544a106241fd1ac3da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractable
 --- !u!1001 &957546029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5390,6 +5392,14 @@ PrefabInstance:
     - target: {fileID: 1266922803066651948, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.857
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769353783384156366, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.511
       objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5780,6 +5790,14 @@ PrefabInstance:
     - target: {fileID: 1266922803066651948, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769353783384156366, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769353783384156366, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.64
       objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6381,6 +6399,14 @@ PrefabInstance:
     - target: {fileID: 1266922803066651948, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.23
       objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7495,6 +7521,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4101566411892714548, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.37
+      objectReference: {fileID: 0}
     - target: {fileID: 8273828182335753755, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_Name
       value: NPCBadDani (8)
@@ -7832,6 +7862,18 @@ PrefabInstance:
     - target: {fileID: 1266922803066651948, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769353783384156366, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.3
       objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8300,6 +8342,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCBadBea2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.914
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769353783384156366, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.387
+      objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.2
@@ -8599,6 +8649,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCBadManu (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6851230857361049268, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.557
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851230857361049268, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.128
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028235527575947641, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.74
+      objectReference: {fileID: 0}
     - target: {fileID: 8672364013624580198, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
       propertyPath: m_LocalPosition.x
       value: -52.5
@@ -8655,6 +8717,14 @@ PrefabInstance:
     - target: {fileID: 1266922803066651948, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605718100817323779, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769353783384156366, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.99
       objectReference: {fileID: 0}
     - target: {fileID: 8998793111066884561, guid: 17ed432d54c895441b656d5c12c177d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8839,6 +8909,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 618615395526337529, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 618615395526337529, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.944
+      objectReference: {fileID: 0}
     - target: {fileID: 2280417759362020070, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 66.3
@@ -8878,6 +8956,10 @@ PrefabInstance:
     - target: {fileID: 2280417759362020070, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101566411892714548, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 8273828182335753755, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_Name
@@ -9924,6 +10006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCBadManu (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6851230857361049268, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.489
+      objectReference: {fileID: 0}
     - target: {fileID: 8672364013624580198, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.1
@@ -9980,6 +10066,22 @@ PrefabInstance:
     - target: {fileID: 1525959569741161627, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
       propertyPath: m_Name
       value: NPCBadManu (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851230857361049268, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851230857361049268, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028235527575947641, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028235527575947641, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.74
       objectReference: {fileID: 0}
     - target: {fileID: 8672364013624580198, guid: 2efd5e64f9c048541a6d4cbca10ff157, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10745,6 +10847,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4101566411892714548, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101566411892714548, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.09
+      objectReference: {fileID: 0}
     - target: {fileID: 8273828182335753755, guid: bc384fa8b1f3d1c4e92b72a299e261bf, type: 3}
       propertyPath: m_Name
       value: NPCBadDani (3)
@@ -10825,7 +10935,7 @@ PrefabInstance:
     - target: {fileID: 9091465658305530463, guid: 5e1f1bb1f83bd9c4abffd0b616321a1e, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2088000478}
+      objectReference: {fileID: 0}
     - target: {fileID: 9091465658305530463, guid: 5e1f1bb1f83bd9c4abffd0b616321a1e, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -10841,7 +10951,7 @@ PrefabInstance:
     - target: {fileID: 9091465658305530463, guid: 5e1f1bb1f83bd9c4abffd0b616321a1e, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2088000478}
+      objectReference: {fileID: 0}
     - target: {fileID: 9091465658305530463, guid: 5e1f1bb1f83bd9c4abffd0b616321a1e, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -10879,17 +10989,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e1f1bb1f83bd9c4abffd0b616321a1e, type: 3}
---- !u!114 &2088000478 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9091465658305530463, guid: 5e1f1bb1f83bd9c4abffd0b616321a1e, type: 3}
-  m_PrefabInstance: {fileID: 2088000477}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 801f55b1f4d3b4544a106241fd1ac3da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractable
 --- !u!1001 &2105963264
 PrefabInstance:
   m_ObjectHideFlags: 0

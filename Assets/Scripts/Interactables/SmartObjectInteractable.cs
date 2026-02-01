@@ -26,7 +26,7 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 
 	protected virtual bool CanInteractNoFeedback()
 	{
-		return GameManager.Instance.ControlsEnabled && !_maskController.MaskAnimationInProgress;
+		return GameManager.Instance.ControlsEnabled && GameManager.Instance.NumEnemiesPursuing == 0 && !_maskController.MaskAnimationInProgress;
 	}
 
 	protected virtual bool CanInteract()
