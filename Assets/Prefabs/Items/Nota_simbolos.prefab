@@ -126,7 +126,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _requiredItems: []
   _onCantInteractFeedback:
     m_PersistentCalls:
       m_Calls: []
-  ItemData: {fileID: 0}
+  ItemData: {fileID: 11400000, guid: 48e8ab3dba473854fa3e2e7ee3f5b8ea, type: 2}
