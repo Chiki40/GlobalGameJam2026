@@ -101,7 +101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6480
+        y: 5400
         width: 1920
         height: 1080
       alignment: 0
@@ -123,7 +123,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1920
-        y: 6480
+        y: 5400
         width: 1920
         height: 1080
       alignment: 0
@@ -145,7 +145,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3840
-        y: 6480
+        y: 5400
         width: 1920
         height: 1080
       alignment: 0
@@ -167,7 +167,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5760
-        y: 6480
+        y: 5400
         width: 1920
         height: 1080
       alignment: 0
@@ -189,7 +189,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7680
-        y: 6480
+        y: 5400
         width: 1920
         height: 1080
       alignment: 0
@@ -210,8 +210,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_5
       rect:
         serializedVersion: 2
-        x: 9600
-        y: 6480
+        x: 0
+        y: 4320
         width: 1920
         height: 1080
       alignment: 0
@@ -232,8 +232,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5400
+        x: 1920
+        y: 4320
         width: 1920
         height: 1080
       alignment: 0
@@ -254,8 +254,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_7
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 5400
+        x: 3840
+        y: 4320
         width: 1920
         height: 1080
       alignment: 0
@@ -276,8 +276,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_8
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 5400
+        x: 5760
+        y: 4320
         width: 1920
         height: 1080
       alignment: 0
@@ -298,8 +298,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_9
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 5400
+        x: 7680
+        y: 4320
         width: 1920
         height: 1080
       alignment: 0
@@ -320,8 +320,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_10
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 5400
+        x: 0
+        y: 3240
         width: 1920
         height: 1080
       alignment: 0
@@ -342,8 +342,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_11
       rect:
         serializedVersion: 2
-        x: 9600
-        y: 5400
+        x: 1920
+        y: 3240
         width: 1920
         height: 1080
       alignment: 0
@@ -364,8 +364,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4320
+        x: 3840
+        y: 3240
         width: 1920
         height: 1080
       alignment: 0
@@ -386,8 +386,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_13
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 4320
+        x: 5760
+        y: 3240
         width: 1920
         height: 1080
       alignment: 0
@@ -408,8 +408,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_14
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 4320
+        x: 7680
+        y: 3240
         width: 1920
         height: 1080
       alignment: 0
@@ -430,8 +430,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_15
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 4320
+        x: 0
+        y: 2160
         width: 1920
         height: 1080
       alignment: 0
@@ -452,8 +452,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_16
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 4320
+        x: 1920
+        y: 2160
         width: 1920
         height: 1080
       alignment: 0
@@ -474,8 +474,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_17
       rect:
         serializedVersion: 2
-        x: 9600
-        y: 4320
+        x: 3840
+        y: 2160
         width: 1920
         height: 1080
       alignment: 0
@@ -496,8 +496,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3240
+        x: 5760
+        y: 2160
         width: 1920
         height: 1080
       alignment: 0
@@ -518,8 +518,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_19
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 3240
+        x: 7680
+        y: 2160
         width: 1920
         height: 1080
       alignment: 0
@@ -540,8 +540,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_20
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 3240
+        x: 0
+        y: 1080
         width: 1920
         height: 1080
       alignment: 0
@@ -562,8 +562,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_21
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 3240
+        x: 1920
+        y: 1080
         width: 1920
         height: 1080
       alignment: 0
@@ -584,8 +584,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_22
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 3240
+        x: 3840
+        y: 1080
         width: 1920
         height: 1080
       alignment: 0
@@ -606,8 +606,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_23
       rect:
         serializedVersion: 2
-        x: 9600
-        y: 3240
+        x: 5760
+        y: 1080
         width: 1920
         height: 1080
       alignment: 0
@@ -628,8 +628,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2160
+        x: 7680
+        y: 1080
         width: 1920
         height: 1080
       alignment: 0
@@ -650,8 +650,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_25
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2160
+        x: 0
+        y: 0
         width: 1920
         height: 1080
       alignment: 0
@@ -672,8 +672,8 @@ TextureImporter:
       name: Ponerse Mascara#[1920,1080]_26
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 2160
+        x: 1920
+        y: 0
         width: 1920
         height: 1080
       alignment: 0
@@ -686,336 +686,6 @@ TextureImporter:
       bones: []
       spriteID: d9c2b30952ae96d4bafa05f0b1b3fd5f
       internalID: -1837624896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_27
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 2160
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06c73727318a2334394653dd8c0aac61
-      internalID: 376339900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_28
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 2160
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba656f78b16ba644cb0fc32b46b52bd1
-      internalID: 504612188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_29
-      rect:
-        serializedVersion: 2
-        x: 9600
-        y: 2160
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 899700d17f7e9234f9644bc1d21edbf4
-      internalID: -1955335359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_30
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9f95ec21d3d5714a851b75531edc847
-      internalID: -1799480614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_31
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcf6267555dd7ec43b438d2dc7b7cd61
-      internalID: -1049709873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_32
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ba1b5b436e30554f89a3aa6311408ba
-      internalID: -2023664489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_33
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb5e921eda9a0e4281cf4e441726784
-      internalID: 1898580866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_34
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5151033d76fecc47a2b3120cac73073
-      internalID: -164837989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_35
-      rect:
-        serializedVersion: 2
-        x: 9600
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a788dd02c02382543b910c97b9295f85
-      internalID: 1648149386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d137f235e33fdd2419cc7f9fff300e49
-      internalID: -2079648643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_37
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 953f914e5d2449b4ab021e43fcf45603
-      internalID: 1975196141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_38
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27541cb16df91e1469a0cf7c83c87d02
-      internalID: -1222730102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_39
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57505d5a05ff6ee4a91c8eea61abc15f
-      internalID: 1918520029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_40
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1efd14efd24e56246831a8b6b126bf31
-      internalID: 1513732501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ponerse Mascara#[1920,1080]_41
-      rect:
-        serializedVersion: 2
-        x: 9600
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcdb974f89c8c2c4b86707f03343a2ff
-      internalID: 2053099789
       vertices: []
       indices: 
       edges: []
@@ -1034,7 +704,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":7.0},"gridSpriteSize":{"x":1920.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":1920.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Ponerse Mascara#[1920,1080]_0: 1249234103
       Ponerse Mascara#[1920,1080]_1: 394480844
@@ -1060,19 +730,7 @@ TextureImporter:
       Ponerse Mascara#[1920,1080]_28: 504612188
       Ponerse Mascara#[1920,1080]_29: -1955335359
       Ponerse Mascara#[1920,1080]_3: 1828750922
-      Ponerse Mascara#[1920,1080]_30: -1799480614
-      Ponerse Mascara#[1920,1080]_31: -1049709873
-      Ponerse Mascara#[1920,1080]_32: -2023664489
-      Ponerse Mascara#[1920,1080]_33: 1898580866
-      Ponerse Mascara#[1920,1080]_34: -164837989
-      Ponerse Mascara#[1920,1080]_35: 1648149386
-      Ponerse Mascara#[1920,1080]_36: -2079648643
-      Ponerse Mascara#[1920,1080]_37: 1975196141
-      Ponerse Mascara#[1920,1080]_38: -1222730102
-      Ponerse Mascara#[1920,1080]_39: 1918520029
       Ponerse Mascara#[1920,1080]_4: 322588529
-      Ponerse Mascara#[1920,1080]_40: 1513732501
-      Ponerse Mascara#[1920,1080]_41: 2053099789
       Ponerse Mascara#[1920,1080]_5: 1436360659
       Ponerse Mascara#[1920,1080]_6: 237849151
       Ponerse Mascara#[1920,1080]_7: -2057782494

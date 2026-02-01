@@ -256,6 +256,9 @@ MonoBehaviour:
   _interactionMask:
     serializedVersion: 2
     m_Bits: 8
+  _pointer: {fileID: 1674509430713580927}
+  _aimNormalColor: {r: 1, g: 1, b: 1, a: 1}
+  _aimDetectingColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &-3171006717678066694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,7 +495,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7484239243980128847
 CanvasRenderer:

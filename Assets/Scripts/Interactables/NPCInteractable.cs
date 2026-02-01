@@ -7,7 +7,6 @@ public class NPCInteractable : SmartObjectInteractable
 	private ConversationData _conversation = null;
 
 	private Animator _animator = null;
-	private Inventory _playerInventory = null;
 	private CinemachineCamera _dialogueCamera = null;
 
 	protected override void Start()
