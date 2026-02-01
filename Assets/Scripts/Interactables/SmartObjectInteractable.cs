@@ -8,6 +8,8 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 	[SerializeField]
 	private UnityEvent _onInteracted = null;
 	[SerializeField]
+	private ItemData[] _requiredItems = null;
+	[SerializeField]
 	private UnityEvent _onCantInteractFeedback = null;
 
 	protected GameObject _playerObject;
@@ -32,8 +34,25 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 
 	protected virtual bool CanInteract()
     {
-		return true;
-    }
+		bool canInteract = true;
+
+		if (canInteract)
+		{
+			if (_requiredItems != null && _requiredItems.Length > 0)
+			{
+				for (int i = 0; i < _requiredItems.Length; ++i)
+				{
+					if (!_playerInventory.HasItem(_requiredItems[i]))
+					{
+						canInteract = false;
+						break;
+					}
+				}
+			}
+		}
+
+		return canInteract;
+	}
 
     protected virtual void Interact()
     {
@@ -67,6 +86,11 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 		{
 			CantInteractFeedback();
 		}
+	}
+
+	public void Destroy()
+	{
+		Destroy(gameObject);
 	}
 
 	public void AddItem(ItemData item)

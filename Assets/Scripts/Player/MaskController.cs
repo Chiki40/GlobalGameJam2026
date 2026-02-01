@@ -53,7 +53,7 @@ public class MaskController : MonoBehaviour
             _animator.CrossFadeInFixedTime("MaskOn", 0.0f);
             yield return null;
             yield return new WaitUntil(() => !_animator.IsInTransition(0));
-			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
+			yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
 			_maskAnimationInProgress = false;
 			_maskOn = true;
             if (!string.IsNullOrEmpty(_maskOnLoop))
@@ -77,7 +77,7 @@ public class MaskController : MonoBehaviour
 			_animator.CrossFadeInFixedTime("MaskOff", 0.0f);
 			yield return null;
 			yield return new WaitUntil(() => !_animator.IsInTransition(0));
-			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
+			yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
 			_maskAnimationInProgress = false;
 			_maskOn = false;
             Debug.Log("Mask off");

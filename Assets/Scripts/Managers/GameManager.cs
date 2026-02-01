@@ -2,9 +2,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+	[SerializeField]
+	private Image _aim = null;
+
 	[SerializeField]
 	private string _conversationTextCharSFX = null;
 
@@ -54,6 +58,7 @@ public class GameManager : MonoBehaviour
 		_playerInput = _player.GetComponent<PlayerInput>();
 		_cancelInput = _playerInput.actions.FindAction("Cancel");
 		_respawnTransform = GameObject.FindGameObjectWithTag("Respawn").transform;
+		_aim.enabled = false;
 	}
 
 	private void Update()
@@ -145,10 +150,12 @@ public class GameManager : MonoBehaviour
         UtilSound.Instance.PlaySound("Gameplay", loop: true);
 		SetControlsEnabled(true);
 		UIManager.Instance.ActivateInventory(true);
+		_aim.enabled = true;
 	}
 
 	public void StartEndCinematic()
 	{
+		_aim.enabled = false;
 		EndCinematic.GetComponent<PlayableDirector>().Play();
 	}
 }

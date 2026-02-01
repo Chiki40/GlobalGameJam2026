@@ -3,8 +3,6 @@ using UnityEngine;
 public class PickableItem : SmartObjectInteractable
 {
 	[SerializeField]
-	private ItemData[] _requiredItems = null;
-	[SerializeField]
     private ItemData[] _itemsToGive = null;
 
 	protected override void Awake()
@@ -12,42 +10,9 @@ public class PickableItem : SmartObjectInteractable
 		base.Awake();
 	}
 
-	protected override bool CanInteract()
-	{
-		bool canInteract = base.CanInteract();
-
-		if (canInteract)
-		{
-			if (_requiredItems != null && _requiredItems.Length > 0)
-			{
-				for (int i = 0; i < _requiredItems.Length; ++i)
-				{
-					if (!_playerInventory.HasItem(_requiredItems[i]))
-					{
-						canInteract = false;
-						break;
-					}
-				}
-			}
-		}
-
-		return canInteract;
-	}
-
 	protected override void Interact()
     {
 		base.Interact();
-
-		if (_requiredItems != null && _requiredItems.Length > 0)
-		{
-			for (int i = 0; i < _requiredItems.Length; ++i)
-			{
-				if (_playerInventory.HasItem(_requiredItems[i]))
-				{
-					_playerInventory.RemoveItem(_requiredItems[i]);
-				}
-			}
-		}
 
 		if (_itemsToGive != null && _itemsToGive.Length > 0)
 		{
@@ -61,10 +26,5 @@ public class PickableItem : SmartObjectInteractable
 	protected override void CantInteractFeedback()
 	{
 		base.CantInteractFeedback();
-	}
-
-	public void Destroy()
-	{
-		Destroy(gameObject);
 	}
 }

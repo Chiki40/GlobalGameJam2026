@@ -141,6 +141,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4710808893043297589}
     m_Modifications:
+    - target: {fileID: 1580012588477900754, guid: 2d639cb7fcdb1984ea3715e5c2ef34f0, type: 3}
+      propertyPath: _aim
+      value: 
+      objectReference: {fileID: 9121214466130901607}
     - target: {fileID: 5951407583587107470, guid: 2d639cb7fcdb1984ea3715e5c2ef34f0, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -499,3 +503,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4771838463415270921, guid: 1ae2989ffe1562a4387407f99cb2fb39, type: 3}
   m_PrefabInstance: {fileID: 7613367397413259032}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9121214466130901607 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1674509430713580927, guid: 1ae2989ffe1562a4387407f99cb2fb39, type: 3}
+  m_PrefabInstance: {fileID: 7613367397413259032}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
