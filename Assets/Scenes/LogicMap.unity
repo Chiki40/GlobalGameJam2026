@@ -6659,6 +6659,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1208297564581368551, guid: 44992984ddaa7934191d42c76f54d5ff, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3799280166881333831, guid: 44992984ddaa7934191d42c76f54d5ff, type: 3}
       propertyPath: m_Name
       value: Caja_donaciones
@@ -7332,7 +7336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6934293960784733549, guid: 751338b6f5e800741a1bea500b8d097a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.163
+      value: 6.342
       objectReference: {fileID: 0}
     - target: {fileID: 6934293960784733549, guid: 751338b6f5e800741a1bea500b8d097a, type: 3}
       propertyPath: m_LocalPosition.y
