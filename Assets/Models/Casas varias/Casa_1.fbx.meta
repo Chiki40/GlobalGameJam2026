@@ -3,11 +3,26 @@ guid: 53404e79ac5429f459267b7d1afab5b9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Detalles_casas
+    second: {fileID: 2100000, guid: 12897accb05b7c342b82f825b0fc61a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_pared_estuco
+    second: {fileID: 2100000, guid: cb365bb99901f0641bb6edcc62f7a875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_tejados_exterior
+    second: {fileID: 2100000, guid: ba0c49ff3f9fc0a4da1cd99a8cba6852, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
+    materialName: 1
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
