@@ -157,6 +157,7 @@ public class GameManager : MonoBehaviour
 	public void StartEndCinematic()
 	{
 		_aim.gameObject.SetActive(false);
+		EndCinematic.gameObject.SetActive(true);
 		EndCinematic.GetComponent<PlayableDirector>().Play();
 	}
 }
