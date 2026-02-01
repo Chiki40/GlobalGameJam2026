@@ -18,7 +18,7 @@ public class MaskController : MonoBehaviour
 
 	private void Awake()
 	{
-        _animator = GetComponent<Animator>();
+        _animator = GetComponentInChildren<Animator>();
 		_input = GetComponent<StarterAssetsInputs>();
 	}
 
@@ -50,7 +50,7 @@ public class MaskController : MonoBehaviour
         IEnumerator PutMaskCoroutine()
         {
             _maskAnimationInProgress = true;
-            _animator.SetTrigger("MaskOn");
+            _animator.CrossFadeInFixedTime("MaskOn", 0.0f);
             yield return null;
             yield return new WaitUntil(() => !_animator.IsInTransition(0));
 			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
@@ -74,7 +74,7 @@ public class MaskController : MonoBehaviour
 			{
 				UtilSound.Instance.StopSound(_maskOnLoop);
 			}
-			_animator.SetTrigger("MaskOff");
+			_animator.CrossFadeInFixedTime("MaskOff", 0.0f);
 			yield return null;
 			yield return new WaitUntil(() => !_animator.IsInTransition(0));
 			yield return _animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;

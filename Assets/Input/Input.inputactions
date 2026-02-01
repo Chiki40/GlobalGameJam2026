@@ -326,6 +326,17 @@
                 },
                 {
                     "name": "",
+                    "id": "d4d7b411-2544-42a4-aaa3-7dd67aa9faa2",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "DialogueProceed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5b97fcb0-1cf3-4ba9-9b72-76ba3cb72b21",
                     "path": "<Keyboard>/e",
                     "interactions": "",
