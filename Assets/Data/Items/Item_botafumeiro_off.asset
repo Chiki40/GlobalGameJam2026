@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Item_botafumeiro_off
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   Name: botafumeiro_off
-  Image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  Image: {fileID: 21300000, guid: f1f9030c4a6f3ca4dae3d82b25f216ea, type: 3}

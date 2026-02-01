@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Item_Figa
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   Name: Figa
-  Image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  Image: {fileID: 21300000, guid: 17ddf7848ab14994f8a6a26b071ce4c6, type: 3}
