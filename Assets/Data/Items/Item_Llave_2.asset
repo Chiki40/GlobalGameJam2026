@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb55956d697c111418822dff57b51db9, type: 3}
   m_Name: Item_Llave_2
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Name: Item0
+  Name: Llave_2
   Image: {fileID: 21300000, guid: c9f1f0583c10fa14ba9359ae621b4272, type: 3}
