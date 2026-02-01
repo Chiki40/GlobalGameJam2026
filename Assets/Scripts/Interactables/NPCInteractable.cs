@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class NPCInteractable : SmartObjectInteractable
 {
-	private Animator _animator = null;
+	[SerializeField]
+	private ConversationData _conversation = null;
 
-    private ConversationData _conversation = null;
+	private Animator _animator = null;
 	private Inventory _playerInventory = null;
 
 	protected override void Start()
