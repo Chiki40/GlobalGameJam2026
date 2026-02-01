@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
 
 	public void LoadLogicMap()
 	{
-		SceneManager.LoadSceneAsync("LogicMap");
+		SceneManager.LoadSceneAsync("LogicMap", LoadSceneMode.Additive);
 	}
 
 	public void PauseGame(bool pause)
