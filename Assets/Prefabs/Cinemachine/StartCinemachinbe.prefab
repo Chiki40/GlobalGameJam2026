@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4892454903936504971}
   - component: {fileID: 6917628296553348037}
   - component: {fileID: 3504740456751020275}
+  - component: {fileID: 3870870415150684823}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 189635701849217213}
   serializedVersion: 2
   m_LocalRotation: {x: 0.023834912, y: 0.63653517, z: -0.030653447, w: 0.7702696}
-  m_LocalPosition: {x: 0.22200118, y: 0.059999995, z: 0.63900226}
+  m_LocalPosition: {x: 0.09, y: 0.07, z: 1.32}
   m_LocalScale: {x: 0.23194782, y: 0.6719527, z: 0.24266015}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -143,6 +144,23 @@ MonoBehaviour:
     RotationDamping: {x: 0, y: 0, z: 0}
     QuaternionDamping: 0
   FollowOffset: {x: 0, y: 0, z: -10}
+--- !u!114 &3870870415150684823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189635701849217213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineVolumeSettings
+  Weight: 1
+  FocusTracking: 0
+  FocusTarget: {fileID: 0}
+  FocusOffset: 0
+  Profile: {fileID: 11400000, guid: e1c3b97a76e03244db914a59af7074ab, type: 2}
 --- !u!1 &687367412964507793
 GameObject:
   m_ObjectHideFlags: 0
@@ -6182,7 +6200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7501855023425266359
 Transform:
   m_ObjectHideFlags: 0
@@ -6255,6 +6273,7 @@ PlayableDirector:
   m_ExposedReferences:
     m_References:
     - 02b1887ec33a3054d8fc136bc073ab88: {fileID: 4332988307397383612}
+    - 0efbf307d23feb74d82f8f086f61411b: {fileID: 0}
     - 860dcd3a2a65feb4eaf926b2fcfa7a81: {fileID: 6743431801430273604}
     - bf9865858607c8744927984dc4b8a78a: {fileID: 0}
     - 3e84d19356990eb4ca1083d4798929e4: {fileID: 905011420963961462}
@@ -6263,8 +6282,10 @@ PlayableDirector:
     - 587f22efc86696c45b994ed78ee0eca2: {fileID: 8201292028093842441}
     - c92cf848d51f42e4aa84acb95c6949ad: {fileID: 4635494761953383588}
     - 59a44281a29316949a05f0ccddf036c3: {fileID: 8595283321673486787}
+    - ba9382587e47bb542a3bc34822269d39: {fileID: 0}
     - 73f62f3b7db1f804ab7f5ba813962b49: {fileID: 8123386432474772602}
     - 3bcbc463dff9d854b9bc84f62c6cffb4: {fileID: 2647264414972342202}
+    - 7cc50c214048d0d42b20789a5665af55: {fileID: 0}
     - 30dfabc527024cc42b8eedb3598d3600: {fileID: 7374697098587257596}
 --- !u!114 &3276057401558111366
 MonoBehaviour:
@@ -7158,6 +7179,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7501855023425266359}
     m_Modifications:
+    - target: {fileID: 1942552489582721314, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.397
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942552489582721314, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942552489582721314, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.204
+      objectReference: {fileID: 0}
     - target: {fileID: 2943603876728316590, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
       propertyPath: m_Name
       value: Car
@@ -7201,6 +7234,18 @@ PrefabInstance:
     - target: {fileID: 3312523292272539493, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812310901125413058, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812310901125413058, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812310901125413058, guid: 2005b0dc47a0256458aa27ed77957f8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.193
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
