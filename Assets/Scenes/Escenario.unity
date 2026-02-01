@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3e891b3130a1dd843bd41cbd4e18fc80, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1335,47 +1335,47 @@ PrefabInstance:
       objectReference: {fileID: 23800000, guid: 9d47abe598a0fde4e9e7fb710943a7df, type: 2}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.9
+      value: 142.09637
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.535
+      value: 27.734358
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 53.3
+      value: 148.48828
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.106698036
+      value: 0.21503395
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.02128085
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.99429154
+      value: 0.9716235
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.096204795
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 60.000004
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: far clip plane
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: near clip plane
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: StartCinematic
