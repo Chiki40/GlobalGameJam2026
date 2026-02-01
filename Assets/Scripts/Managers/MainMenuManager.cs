@@ -1,17 +1,29 @@
 using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MainMenuManager : MonoBehaviour
 {
+	[SerializeField]
+	private GameObject _defaultButtonGameObject = null;
+	[SerializeField]
+    private GameObject _goGoGameplayObject = null;
+
     public CinemachineVirtualCameraBase StartCinematic;
     private CinemachineVirtualCameraBase MainMenuVirtualCamera;
 
     private void OnEnable()
 	{
+        EventSystem.current.SetSelectedGameObject(_defaultButtonGameObject);
+        if (_goGoGameplayObject != null)
+        {
+            _goGoGameplayObject.SetActive(false);
+        }
+
 		StartCoroutine(InitCoroutine());
 
-        MainMenuVirtualCamera = GameObject.Instantiate(StartCinematic);
+        MainMenuVirtualCamera = Instantiate(StartCinematic);
         MainMenuVirtualCamera.transform.position = StartCinematic.transform.position;
         MainMenuVirtualCamera.transform.rotation = StartCinematic.transform.rotation;
         MainMenuVirtualCamera.gameObject.SetActive(true);
