@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7bdda17d2efc59542ab188c4a48b75dd
+guid: a952a062d8993b34ab53d2ae1b4babaa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 74c43bdd208181d4d812ea8df015dd89, type: 2}
+      name: hierba_1Material
+    second: {fileID: 2100000, guid: 8990c71f518cd2d47a59f6eaf5ee5f60, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -51,7 +51,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
