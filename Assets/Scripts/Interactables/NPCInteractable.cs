@@ -4,12 +4,14 @@ public class NPCInteractable : SmartObjectInteractable
 {
 	private Animator _animator = null;
 
-    public ConversationData Conversation;
+    private ConversationData _conversation = null;
+	private Inventory _playerInventory = null;
 
 	protected override void Start()
 	{
 		base.Start();
 		_animator = GetComponentInChildren<Animator>();
+		_playerInventory = _playerObject.GetComponent<Inventory>();
 	}
 
 	protected override bool CanInteractNoFeedback()
@@ -26,6 +28,11 @@ public class NPCInteractable : SmartObjectInteractable
 
 		base.Interact();
 		_animator.CrossFadeInFixedTime("Talk", 0.0f);
-		ConversationManager.Instance.StartConversation(Conversation, OnConversationEnd);
+		ConversationManager.Instance.StartConversation(_conversation, OnConversationEnd);
     }
+
+	public void GiveItem(ItemData item)
+	{
+		_playerInventory.AddItem(item);
+	}
 }
