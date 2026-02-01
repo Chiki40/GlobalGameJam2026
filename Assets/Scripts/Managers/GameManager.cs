@@ -143,5 +143,6 @@ public class GameManager : MonoBehaviour
 	{
         UtilSound.Instance.PlaySound("Gameplay", loop: true);
 		SetControlsEnabled(true);
+		UIManager.Instance.ActivateInventory(true);
 	}
 }
