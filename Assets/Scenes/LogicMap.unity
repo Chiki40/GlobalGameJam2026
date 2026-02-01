@@ -3725,6 +3725,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7839627337889254149, guid: 979a1314c9da26d469e6a2230f63defd, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1217865264}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5212,6 +5216,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e1cfd1efb2a7ca4e9b3722c38d34c73, type: 3}
+--- !u!82 &1217865264 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 860730777055958480, guid: 93b41226831510f4eb44a3d005a731df, type: 3}
+  m_PrefabInstance: {fileID: 6797894840632240078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1245715557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9615,10 +9624,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 860730777055958480, guid: 93b41226831510f4eb44a3d005a731df, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3262270506595556812, guid: 93b41226831510f4eb44a3d005a731df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.05
