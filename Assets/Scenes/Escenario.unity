@@ -1264,6 +1264,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
+--- !u!320 &3266390879649670295 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 6304049342283158053, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
+  m_PrefabInstance: {fileID: 3266390879649670294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5644556951392693273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1438,6 +1443,10 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: EndCinematic
+      value: 
+      objectReference: {fileID: 3266390879649670295}
     - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: StartCinematic
       value: 
