@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Item_Llave_1
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   Name: Item0
-  Image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  Image: {fileID: 21300000, guid: 70b9b7a5ca562f94c87ab216deb48c6a, type: 3}
