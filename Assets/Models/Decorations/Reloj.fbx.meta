@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac2b5ce7c0a59a743831a7e88f0f9399
+guid: 25aa913eed9c7cf4495ddaae8b842fe1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: e91713c9e04be1949857016c6a47d158, type: 2}
+      name: Cartel_reloj_1Material
+    second: {fileID: 2100000, guid: 8c48aec4a3997cf46afaa70ef2df21d5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

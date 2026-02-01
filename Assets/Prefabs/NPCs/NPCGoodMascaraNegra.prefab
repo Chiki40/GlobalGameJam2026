@@ -123,7 +123,7 @@ PrefabInstance:
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 96168452f370b4246864fae289e6ace2, type: 2}
+      objectReference: {fileID: 11400000, guid: a9c40fd3b41724c48ab3c162c0bba2dd, type: 2}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: ItemData, Assembly-CSharp
