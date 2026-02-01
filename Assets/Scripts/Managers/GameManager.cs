@@ -9,9 +9,12 @@ public class GameManager : MonoBehaviour
 	private string _conversationTextCharSFX = null;
 
 	[SerializeField]
-	private PlayableDirector StartCinematic; 
+	private PlayableDirector StartCinematic;
 
-	private static GameManager _instance = null;
+    [SerializeField]
+    private PlayableDirector EndCinematic;
+
+    private static GameManager _instance = null;
 	public static GameManager Instance => _instance;
 
 	private bool _controlsEnabled = true;
@@ -142,5 +145,10 @@ public class GameManager : MonoBehaviour
         UtilSound.Instance.PlaySound("Gameplay", loop: true);
 		SetControlsEnabled(true);
 		UIManager.Instance.ActivateInventory(true);
+	}
+
+	public void StartEndCinematic()
+	{
+		EndCinematic.GetComponent<PlayableDirector>().Play();
 	}
 }
