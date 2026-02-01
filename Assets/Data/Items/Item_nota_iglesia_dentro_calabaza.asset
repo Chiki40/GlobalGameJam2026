@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb55956d697c111418822dff57b51db9, type: 3}
   m_Name: Item_nota_iglesia_dentro_calabaza
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Name: Item0
-  Image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  Name: nota_iglesia_dentro_calabaza
+  Image: {fileID: 21300000, guid: fe3d4c7c429b600468abcef8ef374b0c, type: 3}
