@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729922786755182562, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 42.212
       objectReference: {fileID: 0}
     - target: {fileID: 1729922786755182562, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1729922786755182562, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -74.336
       objectReference: {fileID: 0}
     - target: {fileID: 1729922786755182562, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -105,10 +105,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
-      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1384825933993843773}
-    - target: {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -124,10 +120,6 @@ PrefabInstance:
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
-      propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1384825933993843773}
     - target: {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -164,19 +156,75 @@ PrefabInstance:
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: ConversationData, Assembly-CSharp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2482592410816285018, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 6506031964937810499}
   m_SourcePrefab: {fileID: 100100000, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
---- !u!114 &1384825933993843773 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+--- !u!1 &6505894556814906325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2482592410816285018, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
   m_PrefabInstance: {fileID: 8663346809156967055}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &6506031964937810499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6505894556814906325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26bf73a5f7122ec4eb3f4eda4c314790, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fcf7b399f343a3478451e18c2d68c9f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PickableItem
+  m_EditorClassIdentifier: Assembly-CSharp::FullScreenUIItem
+  _interactSFX: 
+  _onInteracted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6506031964937810499}
+        m_TargetAssemblyTypeName: FullScreenUIItem, Assembly-CSharp
+        m_MethodName: AddItem
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: a687d6e0d0457564cbabab4f15cb3419, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6506031964937810499}
+        m_TargetAssemblyTypeName: FullScreenUIItem, Assembly-CSharp
+        m_MethodName: StartConversation
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 152877e5eaaed1640b34ec7369b95b2a, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ConversationData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _requiredItems:
+  - {fileID: 11400000, guid: 913d59994e27fb94c9e465a852dd7195, type: 2}
+  _onCantInteractFeedback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PickableItem, Assembly-CSharp
+        m_MethodName: StartConversation
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 96168452f370b4246864fae289e6ace2, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ConversationData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ItemData: {fileID: 11400000, guid: a687d6e0d0457564cbabab4f15cb3419, type: 2}
