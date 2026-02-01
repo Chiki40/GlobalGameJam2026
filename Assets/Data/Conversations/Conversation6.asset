@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0542edbc216707346bc42b77bd474608, type: 3}
+  m_Name: Conversation6
+  m_EditorClassIdentifier: Assembly-CSharp::ConversationData
+  Texts:
+  - {fileID: 11400000, guid: 77cdb619df5600d4881a1b62b8cfa763, type: 2}
+  - {fileID: 11400000, guid: 8accd4afecb15384b98627ae42c11ad3, type: 2}
+  - {fileID: 11400000, guid: bf28a769030ae9144950e51688f39b4a, type: 2}
+  - {fileID: 11400000, guid: 66845efdb4a44e841b4b1d9273eeb070, type: 2}
+  - {fileID: 11400000, guid: 615ca3acc089133448cb60fc827391b2, type: 2}
+  - {fileID: 11400000, guid: 285fa5c74b322fe42a171bc0b69bff9b, type: 2}
+  - {fileID: 11400000, guid: f39daaaaef97a974eae6379494caf5d3, type: 2}
