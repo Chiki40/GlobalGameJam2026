@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0542edbc216707346bc42b77bd474608, type: 3}
-  m_Name: Conversation3b
+  m_Name: Conversation_x
   m_EditorClassIdentifier: Assembly-CSharp::ConversationData
   Texts:
-  - {fileID: 11400000, guid: 14a5389c6546b594d8084905369747a3, type: 2}
+  - {fileID: 11400000, guid: d56deeec8cd959b4e93c2ec03a17eb43, type: 2}
