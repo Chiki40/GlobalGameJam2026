@@ -151,6 +151,7 @@ public class GameManager : MonoBehaviour
 		SetControlsEnabled(true);
 		UIManager.Instance.ActivateInventory(true);
 		_aim.enabled = true;
+		LoadLogicMap();
 	}
 
 	public void StartEndCinematic()

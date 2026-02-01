@@ -79,7 +79,7 @@ PrefabInstance:
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: '_requiredItems.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: ec827432d5e09694f88e56d9fd3296f1, type: 2}
+      objectReference: {fileID: 11400000, guid: 913d59994e27fb94c9e465a852dd7195, type: 2}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.size
       value: 1
