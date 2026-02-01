@@ -12,6 +12,7 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 
 	protected GameObject _playerObject;
 	protected MaskController _maskController = null;
+	protected Inventory _playerInventory = null;
 
 	protected virtual void Awake()
 	{
@@ -21,7 +22,7 @@ public abstract class SmartObjectInteractable : MonoBehaviour
     {
         _playerObject = GameObject.FindGameObjectWithTag("Player");
 		_maskController = _playerObject.GetComponent<MaskController>();
-
+		_playerInventory = _playerObject.GetComponent<Inventory>();
 	}
 
 	protected virtual bool CanInteractNoFeedback()
@@ -66,6 +67,11 @@ public abstract class SmartObjectInteractable : MonoBehaviour
 		{
 			CantInteractFeedback();
 		}
+	}
+
+	public void AddItem(ItemData item)
+	{
+		_playerInventory.AddItem(item);
 	}
 
 	public void StartConversation(ConversationData conversationData)

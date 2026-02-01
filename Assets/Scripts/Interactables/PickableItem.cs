@@ -7,17 +7,9 @@ public class PickableItem : SmartObjectInteractable
 	[SerializeField]
     private ItemData[] _itemsToGive = null;
 
-	private Inventory _playerInventory = null;
-
 	protected override void Awake()
 	{
 		base.Awake();
-	}
-
-	protected override void Start()
-	{
-		base.Start();
-		_playerInventory = _playerObject.GetComponent<Inventory>();
 	}
 
 	protected override bool CanInteract()

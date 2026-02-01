@@ -1215,6 +1215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndCinemachine
       objectReference: {fileID: 0}
+    - target: {fileID: 5088305307541493572, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6127970812132085343, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
