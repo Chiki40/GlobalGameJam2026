@@ -16,10 +16,12 @@ public class MainMenuManager : MonoBehaviour
     private void OnEnable()
 	{
         EventSystem.current.SetSelectedGameObject(_defaultButtonGameObject);
+#if !DEBUG
         if (_goGoGameplayObject != null)
         {
             _goGoGameplayObject.SetActive(false);
         }
+#endif
 
 		StartCoroutine(InitCoroutine());
 
