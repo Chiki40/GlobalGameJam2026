@@ -1359,6 +1359,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 183455474}
+    - target: {fileID: 8370875572123618349, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 9076731742995462475}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1612,6 +1616,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+--- !u!20 &9076731742995462475 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+  m_PrefabInstance: {fileID: 9076731742995462474}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
