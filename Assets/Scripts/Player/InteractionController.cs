@@ -1,5 +1,6 @@
 using StarterAssets;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InteractionController : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class InteractionController : MonoBehaviour
 	private float _interactionDistance = 1.0f;
 	[SerializeField]
 	private LayerMask _interactionMask = default;
+	[SerializeField]
+	private Image _pointer = default;
 
 	private StarterAssetsInputs _input = null;
 
