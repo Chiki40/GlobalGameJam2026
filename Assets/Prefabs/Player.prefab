@@ -108,7 +108,7 @@ MonoBehaviour:
   SpeedChangeRate: 10
   _stepsSFX: footsteps
   _distanceForStepsSFX: 2
-  JumpHeight: 1.2
+  JumpHeight: 0
   Gravity: -15
   JumpTimeout: 0.1
   FallTimeout: 0.15
@@ -140,7 +140,6 @@ MonoBehaviour:
   interact: 0
   mask: 0
   analogMovement: 0
-  cursorLocked: 1
   cursorInputForLook: 1
 --- !u!114 &2458229899673987368
 MonoBehaviour:
@@ -551,6 +550,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4771838463415270921}
     m_Modifications:
+    - target: {fileID: 5625421728190890762, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: Priority.Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625421728190890762, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: Priority.m_Value
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625421728190890762, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LegacyPriority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625421728190890762, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_StreamingVersion
+      value: 20241001
+      objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395077, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_Name
       value: PlayerFollowCamera
