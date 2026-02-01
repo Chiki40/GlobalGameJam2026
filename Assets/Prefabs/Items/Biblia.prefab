@@ -104,7 +104,8 @@ PrefabInstance:
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.BoxCollider, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -149,7 +150,7 @@ MonoBehaviour:
   _onCantInteractFeedback:
     m_PersistentCalls:
       m_Calls: []
-  ItemData: {fileID: 0}
+  ItemData: {fileID: 11400000, guid: 8e357ac2568734c4a81cea0d37c94b7b, type: 2}
 --- !u!65 &4539342539361515931 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
