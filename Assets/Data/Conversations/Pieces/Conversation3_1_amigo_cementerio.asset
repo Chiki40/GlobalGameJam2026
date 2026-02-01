@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65ce0de79d886142ac39a26c57d7b36, type: 3}
   m_Name: Conversation3_1_amigo_cementerio
   m_EditorClassIdentifier: Assembly-CSharp::ConversationPieceData
-  Text: "\xA1Dios m\xEDo, dios m\xEDo! No s\xE9 c\xF3mo has llegado hasta aqu\xED
-    con todos esos demonios por ah\xED."
+  Text: "\xA1Dios m\xEDo, dios m\xEDo!"
   TextAppearTimeBetweenCharsMultiplier: 1

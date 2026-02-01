@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Conversation2_1c_amigo_casa_parroquial
   m_EditorClassIdentifier: Assembly-CSharp::ConversationPieceData
   Text: "Toma, esto te ser\xE1 \xFAtil. Pero siento decirte que no tengo todo lo
-    necesario. "
+    necesario."
   TextAppearTimeBetweenCharsMultiplier: 1

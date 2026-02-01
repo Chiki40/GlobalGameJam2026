@@ -1356,6 +1356,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6304049342283158053, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
+      propertyPath: m_InitialState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304049342283158053, guid: f1997223e7ca6fc41a6804d2c7260747, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 183455474}
@@ -1503,6 +1507,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameStuff
       objectReference: {fileID: 0}
+    - target: {fileID: 1852814947965145999, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353679235344954852, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353679235344954852, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2589119704690959166, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -1551,6 +1567,18 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4217897244537232590, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.11455318
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217897244537232590, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.11455318
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217897244537232590, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.11698109
+      objectReference: {fileID: 0}
     - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: EndCinematic
       value: 
@@ -1597,6 +1625,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4710808893043297589, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790559023068225902, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6481923681195094571, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
