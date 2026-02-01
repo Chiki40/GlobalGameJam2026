@@ -1,18 +1,13 @@
 fileFormatVersion: 2
-guid: a6391c75e3a4de9439f32d3a9812a433
+guid: ac2b5ce7c0a59a743831a7e88f0f9399
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mat_Interior_iglesia
-    second: {fileID: 2100000, guid: ac80bc9848ae33a4a9c5503a52a2610a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
-    materialName: 1
-    materialSearch: 2
+    materialName: 0
+    materialSearch: 1
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4

@@ -30,8 +30,324 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8088738544102693172}
+  - {fileID: 4695083106328406040}
+  - {fileID: 6439347788002954394}
+  - {fileID: 7794531747926599203}
+  - {fileID: 8897438227768239912}
+  - {fileID: 3535240347018318528}
+  - {fileID: 4494165251121933334}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3928558482170230059
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8572633029355204353}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.909999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99700373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07735422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_Name
+      value: Banco_Iglesia (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+--- !u!4 &3535240347018318528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+  m_PrefabInstance: {fileID: 3928558482170230059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4167168866482097149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8572633029355204353}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99700373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07735422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_Name
+      value: Banco_Iglesia (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+--- !u!4 &4494165251121933334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+  m_PrefabInstance: {fileID: 4167168866482097149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5089894724552691699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8572633029355204353}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.123
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.247
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99700373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07735422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_Name
+      value: Banco_Iglesia
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+--- !u!4 &4695083106328406040 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+  m_PrefabInstance: {fileID: 5089894724552691699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6834091279138188145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8572633029355204353}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99700373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07735422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_Name
+      value: Banco_Iglesia (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+--- !u!4 &6439347788002954394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+  m_PrefabInstance: {fileID: 6834091279138188145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7755484631726948808
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8572633029355204353}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.93
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.1300004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99700373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07735422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_Name
+      value: Banco_Iglesia (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+--- !u!4 &7794531747926599203 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+  m_PrefabInstance: {fileID: 7755484631726948808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8631783812415438559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97,4 +413,66 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a662191f93819d343bf85b26c34b43cb, type: 3}
   m_PrefabInstance: {fileID: 8631783812415438559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9002895285456076995
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8572633029355204353}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.707
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.496999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99700373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07735422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+      propertyPath: m_Name
+      value: Banco_Iglesia (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+--- !u!4 &8897438227768239912 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6391c75e3a4de9439f32d3a9812a433, type: 3}
+  m_PrefabInstance: {fileID: 9002895285456076995}
   m_PrefabAsset: {fileID: 0}

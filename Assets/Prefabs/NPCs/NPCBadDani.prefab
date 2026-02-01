@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 754820394456367508, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1827862799869923795, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 2981803774785767983, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -56,13 +64,13 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: 2348cb87b6e653e4188393c4231e9f34, type: 2}
+    - target: {fileID: 4181551165498740313, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 4629862220434383803, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Name
       value: NPCBadDani
-      objectReference: {fileID: 0}
-    - target: {fileID: 4661854605580883071, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
