@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 436442009314036218, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
+      propertyPath: m_Size.z
+      value: 0.48
+      objectReference: {fileID: 0}
     - target: {fileID: 1729922786755182562, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -50,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2482592410816285018, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Name
-      value: Nota
+      value: Nota_botica_flor
       objectReference: {fileID: 0}
     - target: {fileID: 4926619129936742726, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: m_Mesh
