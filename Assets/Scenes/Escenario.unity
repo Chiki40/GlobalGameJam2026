@@ -377,6 +377,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1428458209357321339, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6179569433237109262, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
@@ -424,6 +428,10 @@ PrefabInstance:
     - target: {fileID: 7512509385639785413, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
       propertyPath: m_Name
       value: StartCinemachinbe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512509385639785413, guid: 937b0e980373a944bbdf53ce5ccf6f04, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1205,23 +1213,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1211
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4567
+      value: 288
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3269
+      value: -365
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.37622422
+      value: -0.9025853
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.92652863
+      value: -0.43051103
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1233,7 +1241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 135.8
+      value: 411
       objectReference: {fileID: 0}
     - target: {fileID: 5110436068484272039, guid: d9b85805f51afcc4c8ca14bcd65a9090, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1320,6 +1328,50 @@ PrefabInstance:
     - target: {fileID: 1043465871607567413, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: m_Name
       value: GameStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.09637
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.734358
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 148.48828
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.21503395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.02128085
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9716235
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504288, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.096204795
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: field of view
+      value: 60.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: far clip plane
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: near clip plane
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934735587487504295, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
+      propertyPath: orthographic size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4689658959428398144, guid: 604ea16d028a31941bb31048697a9f47, type: 3}
       propertyPath: StartCinematic
