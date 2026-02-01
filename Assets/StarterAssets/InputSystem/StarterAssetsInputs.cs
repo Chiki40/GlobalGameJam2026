@@ -11,7 +11,6 @@ namespace StarterAssets
 		public Vector2 move;
 		public Vector2 look;
 		public bool jump;
-		public bool sprint;
 		public bool interact;
 		public bool mask;
 
@@ -54,11 +53,6 @@ namespace StarterAssets
 		{
 			DialogueProceedInput(value.isPressed);
 		}
-
-		public void OnSprint(InputValue value)
-		{
-			SprintInput(value.isPressed);
-		}
 #endif
 
 
@@ -90,11 +84,6 @@ namespace StarterAssets
 		public void DialogueProceedInput(bool newDialogueProceedState)
 		{
 			ConversationManager.Instance.ConversationProceed();
-		}
-
-		public void SprintInput(bool newSprintState)
-		{
-			sprint = newSprintState;
 		}
 	}
 	
