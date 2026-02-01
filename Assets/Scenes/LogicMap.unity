@@ -8043,10 +8043,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nota_botica_flor
       objectReference: {fileID: 0}
-    - target: {fileID: 6506031964937810499, guid: 7c144d34fa876574ea4a36bb24b42422, type: 3}
-      propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6934293960784733549, guid: 7c144d34fa876574ea4a36bb24b42422, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.212
