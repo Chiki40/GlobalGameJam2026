@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 7f0ca098e646ad94fa515d08c1806df0, type: 2}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _requiredItems.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: '_requiredItems.Array.data[0]'
