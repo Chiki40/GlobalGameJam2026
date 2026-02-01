@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65ce0de79d886142ac39a26c57d7b36, type: 3}
-  m_Name: Conversation2_2_calabacin_on
-  m_EditorClassIdentifier: Assembly-CSharp::ConversationPieceData
-  Text: He encontrado una nota
-  TextAppearTimeBetweenCharsMultiplier: 1
+  m_Script: {fileID: 11500000, guid: 0542edbc216707346bc42b77bd474608, type: 3}
+  m_Name: Conversation5
+  m_EditorClassIdentifier: Assembly-CSharp::ConversationData
+  Texts:
+  - {fileID: 11400000, guid: 5bdf964b65b16954082b1eb761e5e153, type: 2}

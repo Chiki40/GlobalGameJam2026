@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb55956d697c111418822dff57b51db9, type: 3}
-  m_Name: Item_calabaza_on
-  m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Name: Item0
-  Image: {fileID: 21300000, guid: 9f0b9c847375aad46abe999536ba08af, type: 3}
+  m_Script: {fileID: 11500000, guid: 0542edbc216707346bc42b77bd474608, type: 3}
+  m_Name: Conversation1
+  m_EditorClassIdentifier: Assembly-CSharp::ConversationData
+  Texts:
+  - {fileID: 11400000, guid: 8358775bf7fe1a5469f4d3b5767b1ba7, type: 2}
