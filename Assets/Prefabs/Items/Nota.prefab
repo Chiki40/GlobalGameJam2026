@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: e892ed54a29852c48a5a1a3c5c441513, type: 2}
     - target: {fileID: 7713971116970280626, guid: e44d130101b7f96479e236eaeb05ac6b, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
