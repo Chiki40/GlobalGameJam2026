@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 339ced44d7d12d54ab40887fbd797d2e, type: 2}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _requiredItems.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: '_requiredItems.Array.data[0]'
@@ -70,11 +70,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: e892ed54a29852c48a5a1a3c5c441513, type: 2}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _onCantInteractFeedback.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
