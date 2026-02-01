@@ -56,12 +56,51 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -195429405, guid: 09a798d862140134db100e208c791541, type: 3}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6550275532000248989}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GiveItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCInteractable, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: ItemData, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8939842569310244931, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: m_Name
-      value: NPCGoodBea2 Variant
+      value: NPCGoodBea2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+--- !u!114 &6550275532000248989 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4499664007679885872, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+  m_PrefabInstance: {fileID: 7247774453676902061}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801f55b1f4d3b4544a106241fd1ac3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractable
