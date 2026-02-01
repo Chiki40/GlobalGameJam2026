@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb55956d697c111418822dff57b51db9, type: 3}
   m_Name: Item_vela_negra_off
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Name: vela_negra
+  Name: vela_negra_off
   Image: {fileID: 21300000, guid: 23eec9bbf2b57ad44bdbe4b18b2658f7, type: 3}
