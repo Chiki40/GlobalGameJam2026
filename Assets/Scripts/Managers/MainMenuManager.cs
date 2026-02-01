@@ -37,10 +37,12 @@ public class MainMenuManager : MonoBehaviour
 		yield return null;
 		GameManager.Instance.SetControlsEnabled(false);
 		GameManager.Instance.ChangeInputMapping(ui: true);
+        UtilSound.Instance.PlaySound("MainMenu");
     }
 
 	public void StartGame()
     {
+        UtilSound.Instance.StopSound("MainMenu");
         UtilSound.Instance.PlaySound("StartGame");
 		GameManager.Instance.ChangeInputMapping(ui: false);
 		gameObject.SetActive(false);
@@ -60,6 +62,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGameplay()
     {
+        UtilSound.Instance.StopSound("MainMenu");
         GameManager.Instance.SetControlsEnabled(true);
         GameManager.Instance.ChangeInputMapping(ui: false);
         gameObject.SetActive(false);
