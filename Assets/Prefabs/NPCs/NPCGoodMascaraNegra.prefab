@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 214081833519800104, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _detectionDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1254131859338161342, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40
@@ -63,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 3902801722402402924, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
+      propertyPath: _interactSFX
+      value: allytalking4
       objectReference: {fileID: 0}
     - target: {fileID: 7807537421738939820, guid: 504fd812de5f175428450f007ab2e816, type: 3}
       propertyPath: _conversation

@@ -62,6 +62,11 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGameplay()
     {
+        NPCBad[] npcBads = FindObjectsByType<NPCBad>(FindObjectsSortMode.None);
+        for (int i = 0; i < npcBads.Length; i++)
+        {
+            npcBads[i].StartIdleAudio();
+        }
         UtilSound.Instance.StopSound("MainMenu");
         GameManager.Instance.SetControlsEnabled(true);
         GameManager.Instance.ChangeInputMapping(ui: false);

@@ -18,6 +18,11 @@ public class UtilSound : MonoBehaviour
     private static UtilSound _instance;
     public static UtilSound Instance => _instance;
 
+    [SerializeField] private float _footstepsVolume = 0.4f;
+    [SerializeField] private float _allyTalkingVolume = 0.6f;
+    [SerializeField] private float _combatVolume = 0.8f;
+    [SerializeField] private float _gameplayVolume = 0.8f;
+
     private void Awake()
     {
         if (_instance == null)
@@ -100,6 +105,14 @@ public class UtilSound : MonoBehaviour
         newSource.spatialBlend = 0.0f;
         newSource.outputAudioMixerGroup = _audioMixer;
         newSource.transform.parent = gameObject.transform; // UtilSound is the parent of the new object
+
+        float familyMultiplier = 1.0f;
+        if (clip.name.Contains("footsteps")) familyMultiplier = _footstepsVolume;
+        else if (clip.name.Contains("allytalking")) familyMultiplier = _allyTalkingVolume;
+        else if (clip.name.Contains("Combat") || clip.name.Contains("EndCombat")) familyMultiplier = _combatVolume;
+        else if (clip.name == "Gameplay") familyMultiplier = _gameplayVolume;
+
+        newSource.volume = volume * familyMultiplier;
 
         return newSource;
     }

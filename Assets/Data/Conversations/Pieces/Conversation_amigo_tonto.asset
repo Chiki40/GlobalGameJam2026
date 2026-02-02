@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65ce0de79d886142ac39a26c57d7b36, type: 3}
   m_Name: Conversation_amigo_tonto
   m_EditorClassIdentifier: Assembly-CSharp::ConversationPieceData
-  Text: "Lo siento, no conf\xEDo en ti..."
+  Text: "Lo siento, a\xFAn no puedo ayudarte..."
   TextAppearTimeBetweenCharsMultiplier: 1

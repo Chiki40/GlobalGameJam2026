@@ -20,17 +20,25 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 6256936, guid: c8082902c88a7884b8835966e4e89613, type: 3}
+    - target: {fileID: 2981803774785767983, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_Color.b
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2981803774785767983, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_Color.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 283.59564
+      value: -14.26
       objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00002
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 283.74237
+      value: -11.382489
       objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalRotation.w
@@ -67,6 +75,18 @@ PrefabInstance:
     - target: {fileID: 4181551165498740313, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404171845233280212, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: MaxDistance
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404171845233280212, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: MinDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404171845233280212, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629862220434383803, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Name

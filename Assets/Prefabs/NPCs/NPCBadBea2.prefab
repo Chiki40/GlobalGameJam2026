@@ -12,17 +12,25 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -195429405, guid: 09a798d862140134db100e208c791541, type: 3}
+    - target: {fileID: 2981803774785767983, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2981803774785767983, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6999999
+      objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 283.59564
+      value: -46.7
       objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00002
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 283.74237
+      value: -29.3
       objectReference: {fileID: 0}
     - target: {fileID: 3258268651526086470, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_LocalRotation.w
@@ -56,6 +64,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: 88d7640dfb21e4f449db156361808d40, type: 2}
+    - target: {fileID: 4181551165498740313, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181551165498740313, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.64
+      objectReference: {fileID: 0}
     - target: {fileID: 4629862220434383803, guid: 588dc6288a364dc4da15de4795b0bfed, type: 3}
       propertyPath: m_Name
       value: NPCBadBea2
